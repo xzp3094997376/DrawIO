@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T09:05:04.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="EcKWNampE9rByTiuy2xo" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T09:05:39.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="EarrfUjjRGzWSk5vYlUN" version="17.4.5" type="github">
   <diagram id="7TpPgldkTkO0zqsgpUo0" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -469,8 +469,14 @@
         <mxCell id="KLyLnzfEowh77u5Ol5c0-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-60" target="KLyLnzfEowh77u5Ol5c0-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-74" target="KLyLnzfEowh77u5Ol5c0-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-74" value="entityLogic 控制逻辑数据" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="3314" y="2334.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-76" value="trigger 受伤计算&lt;br&gt;" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="3314" y="2474.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
