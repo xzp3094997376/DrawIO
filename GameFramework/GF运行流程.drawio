@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T02:55:25.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="64zhxo4Ey5Nj0_nDMrfk" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T03:39:01.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="bT3e5CNEQ2qIhtuRBPsf" version="17.4.5" type="github">
   <diagram id="7TpPgldkTkO0zqsgpUo0" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -264,14 +264,19 @@
         <mxCell id="_-COGv22CjztJWk0gib3-109" value="下载更新列表" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#00CC66;" parent="sLLPVfTlJCf7HtXLSMU4-2" vertex="1">
           <mxGeometry x="176" y="33" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-9" value="加载资源" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="_-COGv22CjztJWk0gib3-82">
-          <mxGeometry x="1540" y="547.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="_-COGv22CjztJWk0gib3-82" source="EhIo-l_EZ7HQWAIkAZyg-90" target="KLyLnzfEowh77u5Ol5c0-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="_-COGv22CjztJWk0gib3-82" source="EhIo-l_EZ7HQWAIkAZyg-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="577.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-18" value="unitywebreq根据地址获得数据" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="_-COGv22CjztJWk0gib3-82">
           <mxGeometry x="2395" y="547.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-20" value="加载资源" style="swimlane;labelBackgroundColor=default;fontColor=#00FF33;" vertex="1" parent="_-COGv22CjztJWk0gib3-82">
+          <mxGeometry x="1509" y="517" width="460" height="407" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-12" value="从文件加载资源文件" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-20">
+          <mxGeometry x="31" y="30.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EhIo-l_EZ7HQWAIkAZyg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_-COGv22CjztJWk0gib3-154" target="EhIo-l_EZ7HQWAIkAZyg-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -337,12 +342,6 @@
           <mxGeometry x="975.1300000000001" y="1991" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-12" target="KLyLnzfEowh77u5Ol5c0-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-12" value="从文件加载资源文件" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="2109.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-9" target="KLyLnzfEowh77u5Ol5c0-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-14" target="KLyLnzfEowh77u5Ol5c0-16">
