@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T06:09:59.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="7O1-uzN7AMkwknjK2LDA" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T06:49:23.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="yaOCiaR2ZFfH0MFNWEHv" version="17.4.5" type="github">
   <diagram id="7TpPgldkTkO0zqsgpUo0" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,13 +375,13 @@
         <mxCell id="KLyLnzfEowh77u5Ol5c0-42" value="pocedureMenu-menu场景" style="swimlane;labelBackgroundColor=default;fontColor=#00FF33;" vertex="1" parent="1">
           <mxGeometry x="2582" y="2079" width="572" height="539" as="geometry" />
         </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-43" value="切换场景" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-42">
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-43" value="UI 打开" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-42">
           <mxGeometry x="225" y="30.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-44" value="场景选择" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-42">
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-44" value="UI设置" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-42">
           <mxGeometry x="226" y="363" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-45" value="场景资源streamingAssse下载" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-42">
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-45" value="UI ab实例化" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-42">
           <mxGeometry x="225" y="176" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="KLyLnzfEowh77u5Ol5c0-42" source="KLyLnzfEowh77u5Ol5c0-43" target="KLyLnzfEowh77u5Ol5c0-45">
@@ -393,6 +393,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-21" target="KLyLnzfEowh77u5Ol5c0-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-49" value="UI Logic" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="3008" y="2442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-44" target="KLyLnzfEowh77u5Ol5c0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-51" value="ui Form" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="2608" y="2442" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-44" target="KLyLnzfEowh77u5Ol5c0-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
