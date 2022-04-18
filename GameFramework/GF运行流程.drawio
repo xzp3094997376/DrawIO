@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T08:39:45.489Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="P1hZZzlcyRrDCpKXOn0l" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T08:51:03.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44" etag="o3-fT9xUM8CEyBkgMC39" version="17.4.5" type="github">
   <diagram id="7TpPgldkTkO0zqsgpUo0" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -445,7 +445,7 @@
         <mxCell id="KLyLnzfEowh77u5Ol5c0-68" value="陨石" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-57">
           <mxGeometry x="425" y="176" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KLyLnzfEowh77u5Ol5c0-70" value="每一秒显示" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-57">
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-70" value="每一秒随机显示" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="KLyLnzfEowh77u5Ol5c0-57">
           <mxGeometry x="425" y="310.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="KLyLnzfEowh77u5Ol5c0-57" source="KLyLnzfEowh77u5Ol5c0-68" target="KLyLnzfEowh77u5Ol5c0-70">
@@ -459,6 +459,18 @@
         </mxCell>
         <mxCell id="KLyLnzfEowh77u5Ol5c0-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-42" target="KLyLnzfEowh77u5Ol5c0-57">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-72" target="KLyLnzfEowh77u5Ol5c0-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-72" value="entity-初始化数据" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="3314" y="2194.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#00FF33;" edge="1" parent="1" source="KLyLnzfEowh77u5Ol5c0-60" target="KLyLnzfEowh77u5Ol5c0-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLyLnzfEowh77u5Ol5c0-74" value="entityLogic 控制逻辑数据" style="whiteSpace=wrap;html=1;fontColor=#00FF33;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="3314" y="2334.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
