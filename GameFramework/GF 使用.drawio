@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T03:07:30.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="zgoVeJcxZY76OPz5ftv0" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T03:54:39.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="AzCiXMp2AptwhKSMcDbR" version="17.4.6" type="github">
   <diagram id="HpOSS6kOypSDirpP8hp-" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,12 +53,12 @@
           <mxGeometry x="-240" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVM8KvHl8B6dSEVdVxGW-15" value="路径设置（AssetUtility）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-240" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="-230" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVM8KvHl8B6dSEVdVxGW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#2BFF00;" parent="1" source="rVM8KvHl8B6dSEVdVxGW-17" target="rVM8KvHl8B6dSEVdVxGW-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rVM8KvHl8B6dSEVdVxGW-17" value="Ecxcel 按照格式配置" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="rVM8KvHl8B6dSEVdVxGW-17" value="Ecxcel 按照格式配置&lt;br&gt;id,资源名" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVM8KvHl8B6dSEVdVxGW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#2BFF00;" parent="1" target="rVM8KvHl8B6dSEVdVxGW-21" edge="1">
@@ -87,7 +87,10 @@
             <mxPoint x="400" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rVM8KvHl8B6dSEVdVxGW-28" value="id,资源名" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rVM8KvHl8B6dSEVdVxGW-28" target="I-NFAw-u0GaqJ13o2QZn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rVM8KvHl8B6dSEVdVxGW-28" value="数据表名字添加&lt;br&gt;DataTableNames" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TkLbRkRo6aA2VLXPAFhS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="TkLbRkRo6aA2VLXPAFhS-1" target="TkLbRkRo6aA2VLXPAFhS-3" edge="1">
@@ -98,6 +101,9 @@
         </mxCell>
         <mxCell id="TkLbRkRo6aA2VLXPAFhS-3" value="AssetBuilderEditor&lt;br&gt;1.AB包打包设置" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-5" value="编辑器Generator code" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
