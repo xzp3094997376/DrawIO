@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T02:38:57.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="G9gpd1wzipzxVQWpEovx" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T02:57:13.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="bHFPBH09rfej4C3yI-b6" version="17.4.6" type="github">
   <diagram id="i5nLglHS9XAGzWQuGq0W" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="170" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-4" value="Vertical Container" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="10" y="290" width="1290" height="2020" as="geometry" />
+          <mxGeometry x="10" y="290" width="1380" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-28" value="&lt;span&gt;DefaultLoadResourceAgentHelper&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
           <mxGeometry x="620" y="410" width="200" height="20" as="geometry" />
@@ -37,7 +37,7 @@
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-34" target="m1CSbTF6fyn1C_nqHO2i-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-47" value="资源加载" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-47" value="AB.loadAssetbundle资源加载" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
           <mxGeometry x="610" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-44" value="场景加载" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
@@ -50,7 +50,42 @@
           <mxGeometry x="580" y="1390" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-59" value="资源就绪" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
-          <mxGeometry x="360" y="1740" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-63" value="资源解析&lt;br&gt;DefaultDataTableHelper" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
+          <mxGeometry x="830" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-50" value="检查AB包资源加载进度&lt;br&gt;updateUnityweb" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
+          <mxGeometry x="830" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-52" target="m1CSbTF6fyn1C_nqHO2i-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-52" value="加载完成回调" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
+          <mxGeometry x="830" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-50" target="m1CSbTF6fyn1C_nqHO2i-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-54" value="对象池注册&lt;br&gt;资源+以来资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
+          <mxGeometry x="1030" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-52" target="m1CSbTF6fyn1C_nqHO2i-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-61" target="m1CSbTF6fyn1C_nqHO2i-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-61" value="loadAssetTask加载成功回调" style="whiteSpace=wrap;html=1;" vertex="1" parent="m1CSbTF6fyn1C_nqHO2i-4">
+          <mxGeometry x="830" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-59" target="m1CSbTF6fyn1C_nqHO2i-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m1CSbTF6fyn1C_nqHO2i-4" source="m1CSbTF6fyn1C_nqHO2i-47" target="m1CSbTF6fyn1C_nqHO2i-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="1300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-5" target="m1CSbTF6fyn1C_nqHO2i-10">
           <mxGeometry relative="1" as="geometry" />
@@ -121,29 +156,14 @@
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-42" target="m1CSbTF6fyn1C_nqHO2i-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-42" target="m1CSbTF6fyn1C_nqHO2i-50">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="m1CSbTF6fyn1C_nqHO2i-42" value="是否场景资源" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="1590" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-50" target="m1CSbTF6fyn1C_nqHO2i-52">
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-67" value="资源转换为TextAsset" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="2340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m1CSbTF6fyn1C_nqHO2i-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-63" target="m1CSbTF6fyn1C_nqHO2i-67">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-50" value="检查AB包资源加载进度&lt;br&gt;updateUnityweb" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1760" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-52" target="m1CSbTF6fyn1C_nqHO2i-54">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m1CSbTF6fyn1C_nqHO2i-52" target="m1CSbTF6fyn1C_nqHO2i-59">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-52" value="加载完成回调" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1900" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="m1CSbTF6fyn1C_nqHO2i-54" value="对象池注册&lt;br&gt;资源+以来资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
