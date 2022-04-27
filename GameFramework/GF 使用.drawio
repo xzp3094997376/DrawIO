@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T03:54:39.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="AzCiXMp2AptwhKSMcDbR" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-27T03:58:40.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="gxKCoF4lyJIrcP45RT3v" version="17.4.6" type="github">
   <diagram id="HpOSS6kOypSDirpP8hp-" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,11 +99,29 @@
         <mxCell id="TkLbRkRo6aA2VLXPAFhS-1" value="资源打包设置" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="520" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TkLbRkRo6aA2VLXPAFhS-3" target="I-NFAw-u0GaqJ13o2QZn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TkLbRkRo6aA2VLXPAFhS-3" value="AssetBuilderEditor&lt;br&gt;1.AB包打包设置" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="I-NFAw-u0GaqJ13o2QZn-5" value="编辑器Generator code" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-50" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I-NFAw-u0GaqJ13o2QZn-7" target="I-NFAw-u0GaqJ13o2QZn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-7" value="资源路径设置正确" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I-NFAw-u0GaqJ13o2QZn-9" target="I-NFAw-u0GaqJ13o2QZn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-9" value="将资源添加到左侧Assetbundle列表中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-NFAw-u0GaqJ13o2QZn-11" value="保存打包信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
