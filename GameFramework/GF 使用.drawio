@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T09:23:25.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="dg7bfbMRSkjHJGIBRoiA" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T09:25:15.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="Rf-LEU6vi6HQqKfhL1hV" version="17.4.6" type="github">
   <diagram id="HpOSS6kOypSDirpP8hp-" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
         <mxCell id="5LAqtUpHzV6yM_6Arppp-3" value="UI 预制" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5LAqtUpHzV6yM_6Arppp-5" value="添加脚本" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5LAqtUpHzV6yM_6Arppp-5" value="添加脚本（继承UILogic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
