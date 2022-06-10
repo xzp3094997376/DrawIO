@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T09:14:58.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="_AQi0zNpVpe0ZRZuSHFU" version="19.0.3" type="github"><diagram id="DnrnMb2I-ee3ofIosJeG" name="Page-1">5ZZdb5swFIZ/jS8ngc3nJRDaSdsuplz0cnKDi6kMRsaEJL9+JpivQtNWWpZqk7iwXx9z7MfHLwAU5Yd7gUv6gyeEAWgkB4A2AELTghC0j5EcO8X1rU5IRZbooFHYZieiRUOrdZaQahYoOWcyK+fijhcF2cmZhoXgzTzsibN51hKnZCFsd5gt1YcskbRTPeiO+leSpbTPbDp+N5LjPljvpKI44c1EQjFAkeBcdq38EBHWwuu5dPPuXhkdFiZIId8z4SH4Zp9CTMV9dcLZL+vnKX76grq37DGr9Yb1YuWxJ0ASBUR3uZCUp7zALB7VUPC6SEibxlC9MeY756USTSU+EymP+nRxLbmSqMyZHu1ytole3ZuWKl6LHbmwob5GsEiJvBAHhxNQpUt4TqQ4qnmCMCyz/XwdWNdQOsSNmFVDk/4AdXNJPXaAb4PQaBveBgQxiG0QbIDvtQ0PgsBbnMyce0MzSbYlPuNp1G1cY7wnQpLDZcpLKnoCcnUp67vs6W4zXgyzr3Y6uRSOcSWO9r9WvfCd1Wvdsnrd/5W6c0vqcNUzlCsEZusQYQS8OwAdpjYQPgrVSuVAaeoZlOePdfW2X8wP6E+4hz93j+ETP7EPb8U9vGu5h7VKNEQt1NZzlRFHID4D7pQ37PivA31hx+jmfuysf9cUSBfEFghDEDqfEKSNXlQmvB5I1R1/+c5jkx9nFP8G</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-10T09:16:56.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="o7ZUl9bOnrQEQLnmv_uG" version="19.0.3" type="github">
+  <diagram id="DnrnMb2I-ee3ofIosJeG" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WAK5zBahrGszai_4QzEf-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WAK5zBahrGszai_4QzEf-1" target="WAK5zBahrGszai_4QzEf-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAK5zBahrGszai_4QzEf-1" value="数据存储" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAK5zBahrGszai_4QzEf-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WAK5zBahrGszai_4QzEf-2" target="WAK5zBahrGszai_4QzEf-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAK5zBahrGszai_4QzEf-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WAK5zBahrGszai_4QzEf-2" target="WAK5zBahrGszai_4QzEf-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WAK5zBahrGszai_4QzEf-2" value="模式&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WAK5zBahrGszai_4QzEf-4" value="注册表存储" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WAK5zBahrGszai_4QzEf-6" value="文件存储" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
