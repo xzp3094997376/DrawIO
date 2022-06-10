@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T09:48:12.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="aKEs7rkYeAmRXupUs4vN" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T09:52:25.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="o9O_JI70jyiNCmk60pOJ" version="19.0.3" type="github">
   <diagram id="DnrnMb2I-ee3ofIosJeG" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,11 @@
         <mxCell id="WAK5zBahrGszai_4QzEf-1" value="数据存储" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="330" y="315" width="390" height="270" as="geometry" />
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="330" y="315" width="520" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-3" value="" style="group" vertex="1" connectable="0" parent="WX-GgaWL-I9o2pZYYqg0-11">
+          <mxGeometry width="390" height="270" as="geometry" />
         </mxCell>
         <mxCell id="WAK5zBahrGszai_4QzEf-2" value="类型" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="WX-GgaWL-I9o2pZYYqg0-3" vertex="1">
           <mxGeometry x="60" y="30" width="80" height="80" as="geometry" />
@@ -30,6 +33,30 @@
         </mxCell>
         <mxCell id="WX-GgaWL-I9o2pZYYqg0-2" value="文件类型" style="swimlane;startSize=20;" vertex="1" parent="WX-GgaWL-I9o2pZYYqg0-3">
           <mxGeometry width="390" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-9" value="流程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WX-GgaWL-I9o2pZYYqg0-11">
+          <mxGeometry x="400" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WX-GgaWL-I9o2pZYYqg0-11" source="WAK5zBahrGszai_4QzEf-6" target="WX-GgaWL-I9o2pZYYqg0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-12" value="序列化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-9" target="WX-GgaWL-I9o2pZYYqg0-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-14" target="WX-GgaWL-I9o2pZYYqg0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-14" value="存储" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-9" target="WX-GgaWL-I9o2pZYYqg0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-16" value="字典值写入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
