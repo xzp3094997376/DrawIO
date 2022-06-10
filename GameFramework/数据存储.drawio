@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T09:52:25.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="o9O_JI70jyiNCmk60pOJ" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T10:19:35.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="TrgViLkK1xzCay2D8m7X" version="19.0.3" type="github">
   <diagram id="DnrnMb2I-ee3ofIosJeG" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,23 +40,41 @@
         <mxCell id="WX-GgaWL-I9o2pZYYqg0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WX-GgaWL-I9o2pZYYqg0-11" source="WAK5zBahrGszai_4QzEf-6" target="WX-GgaWL-I9o2pZYYqg0-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-12" value="序列化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="295" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-9" target="WX-GgaWL-I9o2pZYYqg0-12">
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-9" target="WX-GgaWL-I9o2pZYYqg0-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-14" target="WX-GgaWL-I9o2pZYYqg0-16">
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="900" y="240" width="560" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-18" value="序列化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WX-GgaWL-I9o2pZYYqg0-22">
+          <mxGeometry y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-20" value="" style="group" vertex="1" connectable="0" parent="WX-GgaWL-I9o2pZYYqg0-22">
+          <mxGeometry x="250" width="310" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-12" value="序列化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WX-GgaWL-I9o2pZYYqg0-20">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-14" value="存储" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WX-GgaWL-I9o2pZYYqg0-20">
+          <mxGeometry y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-16" value="字典值写入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WX-GgaWL-I9o2pZYYqg0-20">
+          <mxGeometry x="190" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WX-GgaWL-I9o2pZYYqg0-20" source="WX-GgaWL-I9o2pZYYqg0-14" target="WX-GgaWL-I9o2pZYYqg0-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-14" value="存储" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WX-GgaWL-I9o2pZYYqg0-22" source="WX-GgaWL-I9o2pZYYqg0-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="90" as="sourcePoint" />
+            <mxPoint x="240" y="70" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-9" target="WX-GgaWL-I9o2pZYYqg0-14">
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-23" value="反序列化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WX-GgaWL-I9o2pZYYqg0-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WX-GgaWL-I9o2pZYYqg0-9" target="WX-GgaWL-I9o2pZYYqg0-23">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="WX-GgaWL-I9o2pZYYqg0-16" value="字典值写入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
