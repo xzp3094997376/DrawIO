@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T08:37:25.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="QTiHN_8N9PAEsfokZVI7" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T09:27:21.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="OJUOeHH5fZMoqhk2KVh6" version="19.0.3" type="github">
   <diagram id="ZGKUrq4hD0NuAZbzeU3i" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,30 @@
               <mxPoint x="520" y="180" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ifyzaVZ6uN9mZMzue3X-29" target="8ifyzaVZ6uN9mZMzue3X-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ifyzaVZ6uN9mZMzue3X-29" target="8ifyzaVZ6uN9mZMzue3X-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-29" value="引用数=0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ifyzaVZ6uN9mZMzue3X-6" target="8ifyzaVZ6uN9mZMzue3X-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-31" value="回收" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-33" value="不回收" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-39" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-40" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="710" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
