@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T09:36:26.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="teMjoFkhGbp2CptG4FRG" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T09:45:11.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="L46gRX2OfPlPaZrEoLo7" version="19.0.3" type="github">
   <diagram id="ZGKUrq4hD0NuAZbzeU3i" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
         <mxCell id="8ifyzaVZ6uN9mZMzue3X-23" value="元素组成" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8ifyzaVZ6uN9mZMzue3X-27">
           <mxGeometry x="220" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="8ifyzaVZ6uN9mZMzue3X-25" value="池子对象Item（被封装）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8ifyzaVZ6uN9mZMzue3X-27">
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-25" value="对象Item（被封装）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="8ifyzaVZ6uN9mZMzue3X-27">
           <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8ifyzaVZ6uN9mZMzue3X-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8ifyzaVZ6uN9mZMzue3X-27" source="8ifyzaVZ6uN9mZMzue3X-23" target="8ifyzaVZ6uN9mZMzue3X-25">
@@ -120,6 +120,12 @@
         </mxCell>
         <mxCell id="8ifyzaVZ6uN9mZMzue3X-41" value="&lt;b&gt;&lt;u style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;条件&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1155" y="640" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-44" value="尺子封装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ifyzaVZ6uN9mZMzue3X-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="8ifyzaVZ6uN9mZMzue3X-23" target="8ifyzaVZ6uN9mZMzue3X-44">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
