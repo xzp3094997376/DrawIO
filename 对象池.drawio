@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T07:20:05.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="sYi3LPpk_N-q3WVPMbg8" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-14T07:31:24.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="i1ugC9u439zzo-jamXxN" version="20.0.1" type="github">
   <diagram id="ZGKUrq4hD0NuAZbzeU3i" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8ifyzaVZ6uN9mZMzue3X-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8ifyzaVZ6uN9mZMzue3X-1" target="8ifyzaVZ6uN9mZMzue3X-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8ifyzaVZ6uN9mZMzue3X-1" target="VEQ589vf9PC211Dlt9Ud-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ifyzaVZ6uN9mZMzue3X-1" value="对象池" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -172,6 +175,27 @@
         </mxCell>
         <mxCell id="VEQ589vf9PC211Dlt9Ud-25" value="分级管理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VEQ589vf9PC211Dlt9Ud-26" target="VEQ589vf9PC211Dlt9Ud-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-26" value="使用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VEQ589vf9PC211Dlt9Ud-28" target="VEQ589vf9PC211Dlt9Ud-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-28" value="1.创建预制体" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VEQ589vf9PC211Dlt9Ud-30" target="VEQ589vf9PC211Dlt9Ud-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-30" value="2.对象封装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-32" value="3.池对象封装" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
