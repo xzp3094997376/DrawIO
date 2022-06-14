@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T07:18:33.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="bI6Rh6Kfis7XjiAwlw5Q" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-14T07:20:05.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.39" etag="sYi3LPpk_N-q3WVPMbg8" version="20.0.1" type="github">
   <diagram id="ZGKUrq4hD0NuAZbzeU3i" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="VEQ589vf9PC211Dlt9Ud-19" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="40" width="560" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VEQ589vf9PC211Dlt9Ud-25" value="分级管理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
