@@ -1,29 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:59:57.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="DMMIsoC8CasSgKOmov3F" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T06:40:52.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="Tgm7jH_zfCjnPC88DFX7" version="20.0.1" type="github">
   <diagram id="QyxOtELk0T_0Xu15OKHX" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Hn_KAFzKHDW6dFltByd4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hn_KAFzKHDW6dFltByd4-1" target="Hn_KAFzKHDW6dFltByd4-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Hn_KAFzKHDW6dFltByd4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hn_KAFzKHDW6dFltByd4-1" target="Hn_KAFzKHDW6dFltByd4-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Hn_KAFzKHDW6dFltByd4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hn_KAFzKHDW6dFltByd4-1" target="Hn_KAFzKHDW6dFltByd4-8">
+        <mxCell id="Hn_KAFzKHDW6dFltByd4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hn_KAFzKHDW6dFltByd4-1" target="Hn_KAFzKHDW6dFltByd4-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hn_KAFzKHDW6dFltByd4-1" value="文件系统" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Hn_KAFzKHDW6dFltByd4-4" value="容量&amp;lt;4g" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Hn_KAFzKHDW6dFltByd4-6" value="自定义扩充" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Hn_KAFzKHDW6dFltByd4-8" value="更新资源存放" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="Hn_KAFzKHDW6dFltByd4-10" value="磁盘" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
