@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T06:44:28.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="7fDGdOkIiwLFTLcXBYlS" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T06:47:49.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="bCQGBnEmt9QgLiB0S5TJ" version="20.0.1" type="github">
   <diagram id="QyxOtELk0T_0Xu15OKHX" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,11 +55,17 @@
         <mxCell id="16p8ehQ-QGT2Kgzedw7t-3" value="覆盖" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="240" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="16p8ehQ-QGT2Kgzedw7t-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16p8ehQ-QGT2Kgzedw7t-5" target="16p8ehQ-QGT2Kgzedw7t-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="16p8ehQ-QGT2Kgzedw7t-5" value="读" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="16p8ehQ-QGT2Kgzedw7t-7" value="文件流字节操作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16p8ehQ-QGT2Kgzedw7t-11" value="分块读取" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
