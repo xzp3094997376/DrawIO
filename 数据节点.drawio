@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T02:06:09.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="rwChzJEdnTR33_nhAoXx" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-18T03:41:11.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="wViULlb9SLmZfj6id7lw" version="20.0.1" type="github">
   <diagram id="LXY_VeD_5NAK4tZBCD1W" name="Page-1">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,6 +28,9 @@
         <mxCell id="7dzbWn2W_wIvI_IN9T1F-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dzbWn2W_wIvI_IN9T1F-6" target="7dzbWn2W_wIvI_IN9T1F-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7dzbWn2W_wIvI_IN9T1F-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dzbWn2W_wIvI_IN9T1F-6" target="7dzbWn2W_wIvI_IN9T1F-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7dzbWn2W_wIvI_IN9T1F-6" value="数据节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -42,6 +45,15 @@
         </mxCell>
         <mxCell id="7dzbWn2W_wIvI_IN9T1F-12" value="树状" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dzbWn2W_wIvI_IN9T1F-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7dzbWn2W_wIvI_IN9T1F-14" target="7dzbWn2W_wIvI_IN9T1F-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7dzbWn2W_wIvI_IN9T1F-14" value="功能" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7dzbWn2W_wIvI_IN9T1F-16" value="存储动态数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
