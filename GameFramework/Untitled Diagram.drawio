@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T08:26:30.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="KPXBtQwLAzlsIEyrSGue" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T09:49:06.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="OPW_NkX-SVcS2hR5UA73" version="20.2.4" type="github">
   <diagram id="-vz4P1ZITSGPAcEF1N8J" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,47 @@
         <mxCell id="vNqGafequIF6js2vLs9z-1" value="socket" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vNqGafequIF6js2vLs9z-2" value="网络连接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vNqGafequIF6js2vLs9z-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-2" target="vNqGafequIF6js2vLs9z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-2" value="创建频道&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-4" target="vNqGafequIF6js2vLs9z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-4" target="vNqGafequIF6js2vLs9z-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-4" value="网络类型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="600" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-6" target="vNqGafequIF6js2vLs9z-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-6" value="TCP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="500" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-8" value="TCP 同步" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="710" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-34" target="vNqGafequIF6js2vLs9z-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-34" value="helpler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-41" value="注册包和包处理函数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-43" value="网络初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNqGafequIF6js2vLs9z-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-43" target="vNqGafequIF6js2vLs9z-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="620" as="sourcePoint" />
+            <mxPoint x="930" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
