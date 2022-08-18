@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:29:16.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="Dx6x819KoGhAZIYrJtUD" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:49:58.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="Iz1qc7GXWAC53spP2_Fx" version="20.2.4" type="github">
   <diagram id="-vz4P1ZITSGPAcEF1N8J" name="Page-1">
     <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         <mxCell id="vNqGafequIF6js2vLs9z-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vNqGafequIF6js2vLs9z-55" target="vNqGafequIF6js2vLs9z-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="v6LqayzRAc19wyVtaCcf-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-55" target="v6LqayzRAc19wyVtaCcf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vNqGafequIF6js2vLs9z-55" value="Connnet连接到网络&lt;br&gt;1.socket连接" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="530" width="120" height="60" as="geometry" />
         </mxCell>
@@ -119,6 +122,12 @@
               <mxPoint x="1140" y="450" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="v6LqayzRAc19wyVtaCcf-5" value="发送数据&lt;br&gt;知道将包中数据发送完毕" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6LqayzRAc19wyVtaCcf-7" value="update轮询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="515" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
