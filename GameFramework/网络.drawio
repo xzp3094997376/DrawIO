@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:25:56.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="DkbevxqjBFbriGiuNHCd" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:29:16.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="Dx6x819KoGhAZIYrJtUD" version="20.2.4" type="github">
   <diagram id="-vz4P1ZITSGPAcEF1N8J" name="Page-1">
     <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,17 +99,26 @@
         <mxCell id="vNqGafequIF6js2vLs9z-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vNqGafequIF6js2vLs9z-55" target="vNqGafequIF6js2vLs9z-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vNqGafequIF6js2vLs9z-55" value="Connnet　连接到网络" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="770" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="vNqGafequIF6js2vLs9z-55" value="Connnet连接到网络&lt;br&gt;1.socket连接" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vNqGafequIF6js2vLs9z-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vNqGafequIF6js2vLs9z-57" target="vNqGafequIF6js2vLs9z-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vNqGafequIF6js2vLs9z-57" value="1.socket连接&lt;br&gt;2.开始接收数据&lt;br&gt;3.处理数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="970" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="vNqGafequIF6js2vLs9z-57" value="&lt;br&gt;1.开始接收数据&lt;br&gt;2.处理数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="960" y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vNqGafequIF6js2vLs9z-59" value="1.protobuf反序列化接收数据&lt;br&gt;2.发送事件&lt;br&gt;3.重置包头" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1170" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="1160" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6LqayzRAc19wyVtaCcf-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.583;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-59" target="vNqGafequIF6js2vLs9z-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="570" as="sourcePoint" />
+            <mxPoint x="1020" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1140" y="450" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
