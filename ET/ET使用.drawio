@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T09:26:55.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="Pvt3AiX6NbZqs3PLMjPy" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T09:28:14.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="IRs5qqRaxWWq6Hr1d4-y" version="20.3.3" type="github">
   <diagram id="X7nTdvZ17fiZJQTRHKaz" name="第 1 页">
     <mxGraphModel dx="1421" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
         <mxCell id="4ZW92E0X6x152_HO0ZJk-11" value="1.服务器ip配置" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4ZW92E0X6x152_HO0ZJk-13" value="2.启动服务器" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4ZW92E0X6x152_HO0ZJk-13" value="2.启动运算服务器" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4ZW92E0X6x152_HO0ZJk-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ZW92E0X6x152_HO0ZJk-16" target="4ZW92E0X6x152_HO0ZJk-18" edge="1">
@@ -63,15 +63,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ZW92E0X6x152_HO0ZJk-16" value="3.打包" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4ZW92E0X6x152_HO0ZJk-18" value="1.AB资源打包，放置到服务器" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="910" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="4ZW92E0X6x152_HO0ZJk-18" value="1.AB资源打包，放置到资源服务器" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4ZW92E0X6x152_HO0ZJk-20" value="2." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="700" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EpS6okYp15U_duJuJnFC-1" value="80端口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EpS6okYp15U_duJuJnFC-1" value="本地配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
