@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T09:28:23.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="GjuMeOH2dqZowz5AECR2" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T09:32:09.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42" etag="QfhF5PTyXtIkEck7U3pq" version="20.3.3" type="github">
   <diagram id="X7nTdvZ17fiZJQTRHKaz" name="第 1 页">
     <mxGraphModel dx="1421" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
         <mxCell id="4ZW92E0X6x152_HO0ZJk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ZW92E0X6x152_HO0ZJk-7" target="4ZW92E0X6x152_HO0ZJk-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ZW92E0X6x152_HO0ZJk-7" value="服务器" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4ZW92E0X6x152_HO0ZJk-7" value="1.服务器（重新生成解决方案）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4ZW92E0X6x152_HO0ZJk-9" value="1.Unity 工程重新生成解决方案" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -59,20 +59,14 @@
         <mxCell id="4ZW92E0X6x152_HO0ZJk-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ZW92E0X6x152_HO0ZJk-16" target="4ZW92E0X6x152_HO0ZJk-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ZW92E0X6x152_HO0ZJk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ZW92E0X6x152_HO0ZJk-16" target="4ZW92E0X6x152_HO0ZJk-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4ZW92E0X6x152_HO0ZJk-16" value="3.打包" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4ZW92E0X6x152_HO0ZJk-18" value="1.AB资源打包，放置到资源服务器" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4ZW92E0X6x152_HO0ZJk-20" value="2." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EpS6okYp15U_duJuJnFC-1" value="本地配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="1030" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
