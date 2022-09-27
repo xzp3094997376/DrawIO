@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T10:28:26.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="O3JEJc4Y3-3rrCJro8OX" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T08:12:49.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="cZn59YQMuvkZx8hKKKl-" version="20.3.5" type="github">
   <diagram id="-vz4P1ZITSGPAcEF1N8J" name="Page-1">
-    <mxGraphModel dx="1422" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,7 +114,7 @@
         <mxCell id="vNqGafequIF6js2vLs9z-57" value="&lt;br&gt;1.开始接收数据&lt;br&gt;2.处理数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FiyPIoS7A9dRKcopYW_M-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vNqGafequIF6js2vLs9z-59" target="FiyPIoS7A9dRKcopYW_M-1">
+        <mxCell id="FiyPIoS7A9dRKcopYW_M-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vNqGafequIF6js2vLs9z-59" target="FiyPIoS7A9dRKcopYW_M-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vNqGafequIF6js2vLs9z-59" value="1.protobuf反序列化接收数据&lt;br&gt;2.发送事件&lt;br&gt;3.重置包头" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -138,8 +138,23 @@
         <mxCell id="v6LqayzRAc19wyVtaCcf-8" value="心跳" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FiyPIoS7A9dRKcopYW_M-1" value="根据事件id ，定位handler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FiyPIoS7A9dRKcopYW_M-1" value="根据事件id ，定位handler" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-2" target="Gihjp0KqFhUBSaglq0Ix-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-2" target="Gihjp0KqFhUBSaglq0Ix-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-2" value="原理&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-3" value="内存缓冲" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-5" value="socket 流接收" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
