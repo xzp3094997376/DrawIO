@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T08:54:17.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="O1-Jy619lQBRpscjb2hl" version="20.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T08:55:47.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="29PtroYbebxRW2JCvTP_" version="20.3.5" type="github">
   <diagram id="-vz4P1ZITSGPAcEF1N8J" name="Page-1">
     <mxGraphModel dx="1421" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -147,6 +147,9 @@
         <mxCell id="Gihjp0KqFhUBSaglq0Ix-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-2" target="Gihjp0KqFhUBSaglq0Ix-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-2" target="Gihjp0KqFhUBSaglq0Ix-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Gihjp0KqFhUBSaglq0Ix-2" value="原理&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1210" width="120" height="60" as="geometry" />
         </mxCell>
@@ -173,6 +176,21 @@
         </mxCell>
         <mxCell id="Gihjp0KqFhUBSaglq0Ix-13" value="发送事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-16" target="Gihjp0KqFhUBSaglq0Ix-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-16" value="发送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-18" target="Gihjp0KqFhUBSaglq0Ix-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-18" value="序列化到内存&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-20" value="socket 发送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
