@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T08:12:49.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="cZn59YQMuvkZx8hKKKl-" version="20.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T08:42:05.929Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="nW_e3yVNKMuuGJSyPJ30" version="20.3.5" type="github">
   <diagram id="-vz4P1ZITSGPAcEF1N8J" name="Page-1">
     <mxGraphModel dx="1421" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,11 +150,29 @@
         <mxCell id="Gihjp0KqFhUBSaglq0Ix-2" value="原理&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-3" target="Gihjp0KqFhUBSaglq0Ix-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Gihjp0KqFhUBSaglq0Ix-3" value="内存缓冲" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-5" target="Gihjp0KqFhUBSaglq0Ix-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Gihjp0KqFhUBSaglq0Ix-5" value="socket 流接收" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-9" value="初始化清空" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gihjp0KqFhUBSaglq0Ix-11" target="Gihjp0KqFhUBSaglq0Ix-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-11" value="反序列化&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gihjp0KqFhUBSaglq0Ix-13" value="发送事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
