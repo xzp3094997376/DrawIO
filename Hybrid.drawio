@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T08:59:35.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="MMYh55KVIbh1AE70j7Ds" version="21.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-21T08:59:56.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="_iuPUAKaQSifLKtPLD3H" version="21.1.7" type="github" pages="3">
   <diagram id="a4xEopkv2bsVfKYn4HD9" name="使用流程">
     <mxGraphModel dx="2204" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,6 +263,38 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-208" value="泛型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-209" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z5YoFpjWwW59qFX5yE6A-210" target="Z5YoFpjWwW59qFX5yE6A-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-210" value="泛型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z5YoFpjWwW59qFX5yE6A-212" target="Z5YoFpjWwW59qFX5yE6A-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-212" value="共享（主工程预先定义实例化）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-213" value="限制性（开发版定制）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Z5YoFpjWwW59qFX5yE6A-210" target="Z5YoFpjWwW59qFX5yE6A-216">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z5YoFpjWwW59qFX5yE6A-216" target="Z5YoFpjWwW59qFX5yE6A-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-216" value="补充元数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5YoFpjWwW59qFX5yE6A-217" value="丢失的函数体元数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
