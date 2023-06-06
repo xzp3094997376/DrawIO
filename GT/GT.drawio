@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T09:11:08.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="mrHVouHeHqD_7CEsJij2" version="21.3.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-06T07:29:16.331Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.37" etag="gh6fr9dXZiQPBmzEs5uh" version="21.3.6" type="github" pages="4">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="4FOWWaKbkUvAEhG_MqS8-8" value="编辑器&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XJBTD5rjsoVUQSGUzCzo-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4FOWWaKbkUvAEhG_MqS8-10" target="XJBTD5rjsoVUQSGUzCzo-1">
+        <mxCell id="XJBTD5rjsoVUQSGUzCzo-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4FOWWaKbkUvAEhG_MqS8-10" target="XJBTD5rjsoVUQSGUzCzo-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4FOWWaKbkUvAEhG_MqS8-10" value="运行时&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -208,7 +208,7 @@
         <mxCell id="4FOWWaKbkUvAEhG_MqS8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4FOWWaKbkUvAEhG_MqS8-12" target="4FOWWaKbkUvAEhG_MqS8-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4FOWWaKbkUvAEhG_MqS8-12" value="GTFRamework/Editor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="4FOWWaKbkUvAEhG_MqS8-12" value="GTFRamework/Editor&lt;br&gt;/NodeGraph" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4FOWWaKbkUvAEhG_MqS8-14" value="TaskGraph 扩展" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -217,14 +217,17 @@
         <mxCell id="4FOWWaKbkUvAEhG_MqS8-15" value="方法重写（TO:导表）&lt;br&gt;（From：从Excel 导入）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-190" y="800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XJBTD5rjsoVUQSGUzCzo-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJBTD5rjsoVUQSGUzCzo-1" target="XJBTD5rjsoVUQSGUzCzo-3">
+        <mxCell id="XJBTD5rjsoVUQSGUzCzo-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XJBTD5rjsoVUQSGUzCzo-1" target="XJBTD5rjsoVUQSGUzCzo-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XJBTD5rjsoVUQSGUzCzo-1" value="Hotfix/TaskNode" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XJBTD5rjsoVUQSGUzCzo-1" value="Hotfix/Task/TaskNode" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XJBTD5rjsoVUQSGUzCzo-3" value="DR表中导入数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XJBTD5rjsoVUQSGUzCzo-3" value="DR表中导入数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mUOd2vU8WUtRqSFVu6tu-1" value="运行原理:状态机&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="768" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
