@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T08:19:10.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="mMUX3oCijviCuQAiKCjt" version="21.3.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-06-14T08:26:30.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="41Ce_XgcgiT9hPHNXOvD" version="21.3.8" type="github" pages="7">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -562,13 +562,13 @@
         <mxCell id="KoSs9CrKauacEbNbw6lz-77" value="插件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1900" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KoSs9CrKauacEbNbw6lz-79" value="DoTween&lt;br&gt;Odin&lt;br&gt;NodeGraph&lt;br&gt;ShaderGraph" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="1190" width="120" height="60" as="geometry" />
+        <mxCell id="KoSs9CrKauacEbNbw6lz-79" value="DoTween&lt;br&gt;Odin&lt;br&gt;NodeGraph&lt;br&gt;ShaderGraph&lt;br&gt;QuickOutline" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="1190" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KoSs9CrKauacEbNbw6lz-81" value="AOT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1895" y="1128" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KoSs9CrKauacEbNbw6lz-82" value="插件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KoSs9CrKauacEbNbw6lz-82" value="NOPI&lt;br&gt;UniTask&lt;br&gt;UNiRX" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1980" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
