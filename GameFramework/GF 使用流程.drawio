@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T08:29:24.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="h1zjqfwd0bi3M-e8r8_v" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-26T08:43:49.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2PCfBdxJ5fqmd0sFebhF" version="21.5.0" type="github" pages="2">
   <diagram id="Ckb2wa7dTxm9xzStYSq4" name="Page-1">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,12 +165,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-6" value="开启服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="1230" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="240" as="sourcePoint" />
-            <mxPoint x="1070" y="240" as="targetPoint" />
+            <mxPoint x="570" y="240" as="sourcePoint" />
+            <mxPoint x="1200" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -235,13 +235,61 @@
         <mxCell id="vCBYs28Tyf5CISLXmm9o-41" value="根据packet id 调用handler" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-15">
           <mxGeometry x="620" y="280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="400" as="sourcePoint" />
+            <mxPoint x="980" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-34" value="cs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="430" y="1078" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vCBYs28Tyf5CISLXmm9o-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.462;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vCBYs28Tyf5CISLXmm9o-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1139.5" y="270" as="sourcePoint" />
-            <mxPoint x="1140" y="920" as="targetPoint" />
+            <mxPoint x="1289.5" y="280" as="sourcePoint" />
+            <mxPoint x="1290" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-46" value="创建服务器监听" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="380" width="400" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-46" source="vCBYs28Tyf5CISLXmm9o-47" target="vCBYs28Tyf5CISLXmm9o-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-47" value="绑定ip 和端口" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-46">
+          <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-48" value="创建线程监听" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-46">
+          <mxGeometry x="140" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.44;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-46" target="vCBYs28Tyf5CISLXmm9o-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="410" as="sourcePoint" />
+            <mxPoint x="250" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-50" value="收到数据" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1140" width="580" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-52" value="反序列化包头" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-50">
+          <mxGeometry x="190" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-53" value="根据包头id 判断包体类型" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-50">
+          <mxGeometry x="190" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-54" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="95" as="sourcePoint" />
+            <mxPoint x="360" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-55" value="Memory 内存流" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-50">
+          <mxGeometry x="360" y="55" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-50" target="vCBYs28Tyf5CISLXmm9o-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="115" as="sourcePoint" />
+            <mxPoint x="300" y="65" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
