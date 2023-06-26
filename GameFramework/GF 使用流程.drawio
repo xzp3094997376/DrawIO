@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T07:31:33.301Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5H0YA-YVjLoq9TzSdgbx" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-26T08:00:34.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LKYeoU6Rkzkbb_AIrtBc" version="21.5.0" type="github" pages="2">
   <diagram id="Ckb2wa7dTxm9xzStYSq4" name="Page-1">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -137,8 +137,83 @@
         <mxCell id="vCBYs28Tyf5CISLXmm9o-1" value="客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vCBYs28Tyf5CISLXmm9o-4" value="创建网络" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="350" width="480" height="560" as="geometry" />
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-4" value="创建网络频道" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="480" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-5" value="创建连接事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-4">
+          <mxGeometry x="180" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-4" source="vCBYs28Tyf5CISLXmm9o-9" target="vCBYs28Tyf5CISLXmm9o-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-9" value="创建helpler（序列化和反序列化数据）" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-4">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-4" target="vCBYs28Tyf5CISLXmm9o-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-12" value="连接网络" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-4">
+          <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.341;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-4" target="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="430" as="sourcePoint" />
+            <mxPoint x="280" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-6" value="开启服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="800" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="260" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vCBYs28Tyf5CISLXmm9o-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="390" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-15" value="发送消息" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1050" width="710" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-15" source="vCBYs28Tyf5CISLXmm9o-16" target="vCBYs28Tyf5CISLXmm9o-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-16" value="&lt;pre data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;iNetworkChannel.Send（cs_packet类型）&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry x="170" y="90" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-15" source="vCBYs28Tyf5CISLXmm9o-18" target="vCBYs28Tyf5CISLXmm9o-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-18" value="创建helpler（序列化和反序列化数据）" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-15" target="vCBYs28Tyf5CISLXmm9o-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-20" value="连接网络" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-23" value="cs header(id 和pakcet id 同值)" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry x="400" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-34" value="cs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1078" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
