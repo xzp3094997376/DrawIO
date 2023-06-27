@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T05:17:37.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="Y7pHaqh_ChwADeJUc_Wq" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T05:19:41.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="0_XjdzeeY3Skn7E7wjhL" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,12 +36,6 @@
           <mxGeometry x="430" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-NY-747oekvJskKpAdoQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2t9DX1kFWUm2xrZ-zth3-2" target="-NY-747oekvJskKpAdoQ-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2t9DX1kFWUm2xrZ-zth3-2" target="HWv7p2b8OiSIe4U5fViz-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2t9DX1kFWUm2xrZ-zth3-2" target="HWv7p2b8OiSIe4U5fViz-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2t9DX1kFWUm2xrZ-zth3-2" value="资源初始化" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -137,6 +131,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-28" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="HWv7p2b8OiSIe4U5fViz-3" target="HWv7p2b8OiSIe4U5fViz-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="500" as="sourcePoint" />
+            <mxPoint x="120" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-13" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1530" y="400" width="120" height="480" as="geometry" />
         </mxCell>
@@ -161,12 +161,6 @@
         <mxCell id="HWv7p2b8OiSIe4U5fViz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HWv7p2b8OiSIe4U5fViz-13" source="HWv7p2b8OiSIe4U5fViz-8" target="HWv7p2b8OiSIe4U5fViz-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-17" value="将从StreamingAssets路径下的加载&lt;br&gt;资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="488" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-19" value="获取资源信息存入字典" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="707" y="380" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-22" value="下载versionList 进行版本号比对，如果不相同则更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="260" width="120" height="60" as="geometry" />
         </mxCell>
@@ -175,6 +169,28 @@
             <mxPoint x="1570" y="310" as="sourcePoint" />
             <mxPoint x="1590" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-27" value="GameEntry.prefab 热更资源加载" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1152.31" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="770" y="380" width="127" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-17" value="将从StreamingAssets路径下的加载&lt;br&gt;资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="HWv7p2b8OiSIe4U5fViz-29">
+          <mxGeometry y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-19" value="获取资源信息存入字典" style="whiteSpace=wrap;html=1;" vertex="1" parent="HWv7p2b8OiSIe4U5fViz-29">
+          <mxGeometry x="7" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2t9DX1kFWUm2xrZ-zth3-2" target="HWv7p2b8OiSIe4U5fViz-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2t9DX1kFWUm2xrZ-zth3-2" target="HWv7p2b8OiSIe4U5fViz-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
