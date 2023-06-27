@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T03:49:35.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="MgEruYuRGiFv8yyhiyCk" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T04:05:31.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="wl6dCRdDk82JiUmTdkyn" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,6 +163,18 @@
         </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-19" value="获取资源信息存入字典" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NY-747oekvJskKpAdoQ-9" target="HWv7p2b8OiSIe4U5fViz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-22" value="下载versionList 进行版本号比对，如果不相同则更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="310" as="sourcePoint" />
+            <mxPoint x="1570" y="380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
