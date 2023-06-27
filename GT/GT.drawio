@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T02:31:08.430Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="IrbsYo1kaclDhQiUjsiZ" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T02:31:42.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="PPtOGqXC3ecozoiQ7EOC" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,8 +116,8 @@
         <mxCell id="-NY-747oekvJskKpAdoQ-17" value="开启hybrid&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="900" y="438" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-1" value="预制体引用了热更脚本，所以打包不会被剔除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="458" width="260" height="30" as="geometry" />
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-1" value="预制体引用了热更脚本，所以打包程序，热更新脚本不会被剔除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="458" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
