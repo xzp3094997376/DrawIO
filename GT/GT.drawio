@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T08:29:43.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="kS-5lYQDFfEUfbmApLvw" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T08:56:29.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="0q2f3-LchKaW7J5AE7S1" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -286,7 +286,10 @@
         <mxCell id="yI05zYHsDVhouOjmOH0p-21" value="测试模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="797" y="2270" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yI05zYHsDVhouOjmOH0p-22" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yI05zYHsDVhouOjmOH0p-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yI05zYHsDVhouOjmOH0p-22" target="yI05zYHsDVhouOjmOH0p-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-22" value="加载Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="2530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yI05zYHsDVhouOjmOH0p-24" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -297,6 +300,12 @@
         </mxCell>
         <mxCell id="yI05zYHsDVhouOjmOH0p-27" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="925" y="2258" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-28" value="j进入demo 场景，框架和所有资源都在一个场景中&lt;br&gt;并且为simulate模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="2243" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-29" value="Task.Create" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2670" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
