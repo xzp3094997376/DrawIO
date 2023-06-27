@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T05:23:58.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="FwgU7-qNI_JXnos6W8oJ" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T05:43:59.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="eEZgGagEpNvtFs6tb7ju" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,11 +230,14 @@
         <mxCell id="HWv7p2b8OiSIe4U5fViz-35" value="SceneObject" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-1" value="场景中可交互物体管理组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1238" width="170" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="zIt2aTO-NISMem9votan" name="confg 配置">
-    <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,7 +326,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SZ3JPSvIUrxthtODppds" name="节点">
-    <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -499,7 +502,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mnMhRoHidRih1ta3WfNh" name="Unity场景功能划分">
-    <mxGraphModel dx="3711" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -730,7 +733,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2WrPdMdwuKZE-WYwoMgU" name="第 8 页">
-    <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
