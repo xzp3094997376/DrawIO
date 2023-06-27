@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T01:08:25.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="GTB2SQL6N6acwQmddM7L" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-27T02:11:07.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="68wuQRagT6r1R8sYMaNl" version="21.5.0" type="github" pages="2">
   <diagram id="Ckb2wa7dTxm9xzStYSq4" name="Page-1">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6tNvyDRV2-U8dCKqPeWW" name="网络">
-    <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1747" dy="998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,7 +186,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-15" value="发送消息" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1130" width="760" height="510" as="geometry" />
+          <mxGeometry x="80" y="1130" width="760" height="570" as="geometry" />
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="vCBYs28Tyf5CISLXmm9o-15" source="vCBYs28Tyf5CISLXmm9o-16" target="vCBYs28Tyf5CISLXmm9o-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -211,6 +211,13 @@
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="vCBYs28Tyf5CISLXmm9o-15" source="vCBYs28Tyf5CISLXmm9o-20" target="vCBYs28Tyf5CISLXmm9o-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b3H8kGusb603htKPnlte-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vCBYs28Tyf5CISLXmm9o-15" source="vCBYs28Tyf5CISLXmm9o-20" target="b3H8kGusb603htKPnlte-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="364" y="350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-20" value="update 轮询" style="whiteSpace=wrap;html=1;" parent="vCBYs28Tyf5CISLXmm9o-15" vertex="1">
           <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
@@ -241,6 +248,9 @@
             <mxPoint x="980" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="b3H8kGusb603htKPnlte-1" value="心跳轮询（发送心跳包）" style="whiteSpace=wrap;html=1;" vertex="1" parent="vCBYs28Tyf5CISLXmm9o-15">
+          <mxGeometry x="430" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-34" value="cs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="430" y="1078" width="40" height="30" as="geometry" />
         </mxCell>
@@ -269,7 +279,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-50" value="收到数据" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="1140" width="580" height="500" as="geometry" />
+          <mxGeometry x="1040" y="1130" width="600" height="560" as="geometry" />
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-52" value="反序列化包头" style="whiteSpace=wrap;html=1;" parent="vCBYs28Tyf5CISLXmm9o-50" vertex="1">
           <mxGeometry x="190" y="55" width="120" height="60" as="geometry" />
