@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T07:51:30.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="sWqa3-_dsrl2bZjCrIAX" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T08:03:51.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="QJNy9lHVYElOKRFHgxwP" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,10 +255,22 @@
           <mxGeometry x="777" y="1730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yI05zYHsDVhouOjmOH0p-12" value="DataTable" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1680" width="270" height="350" as="geometry" />
+          <mxGeometry x="990" y="1680" width="270" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="yI05zYHsDVhouOjmOH0p-13" value="LoadDataTable&lt;br&gt;数据表初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="yI05zYHsDVhouOjmOH0p-12">
+        <mxCell id="yI05zYHsDVhouOjmOH0p-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yI05zYHsDVhouOjmOH0p-12" source="yI05zYHsDVhouOjmOH0p-13" target="yI05zYHsDVhouOjmOH0p-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-13" value="LoadDataTable&lt;br&gt;加载数据表成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="yI05zYHsDVhouOjmOH0p-12">
           <mxGeometry x="75" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yI05zYHsDVhouOjmOH0p-12" source="yI05zYHsDVhouOjmOH0p-15" target="yI05zYHsDVhouOjmOH0p-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-15" value="JsonHelpler 初始化&lt;br&gt;JsonCnver.Parse(解析数据，line 之间插入\t,)" style="whiteSpace=wrap;html=1;" vertex="1" parent="yI05zYHsDVhouOjmOH0p-12">
+          <mxGeometry x="75" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-17" value="DR数据表行类型解析" style="whiteSpace=wrap;html=1;" vertex="1" parent="yI05zYHsDVhouOjmOH0p-12">
+          <mxGeometry x="75" y="330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
