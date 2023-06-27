@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T09:04:40.339Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="mDn15cC2Z9SWSbQYcTNE" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T09:08:15.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="RfNkcfyWPcuwHCamabKx" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,6 +318,9 @@
         </mxCell>
         <mxCell id="yI05zYHsDVhouOjmOH0p-33" value="Task Start（启动任务）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="2950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-35" value="Task State Component" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2898" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
