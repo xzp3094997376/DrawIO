@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T04:05:31.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="wl6dCRdDk82JiUmTdkyn" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T05:16:03.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="dl8Jv6RVjk90SW10wKAH" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="igaIX1w3Rg4hu6XiSQ7m" name="运行流程">
-    <mxGraphModel dx="2009" dy="2317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2364" dy="2520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,7 +99,7 @@
           <mxGeometry x="390" y="458" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-3" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1270" y="80" width="235" height="500" as="geometry" />
+          <mxGeometry x="1140" y="100" width="235" height="500" as="geometry" />
         </mxCell>
         <mxCell id="2t9DX1kFWUm2xrZ-zth3-4" value="可更新模式&lt;br&gt;（Update）模式" style="whiteSpace=wrap;html=1;" parent="HWv7p2b8OiSIe4U5fViz-3" vertex="1">
           <mxGeometry width="144.6153846153846" height="60" as="geometry" />
@@ -128,14 +128,17 @@
         <mxCell id="-NY-747oekvJskKpAdoQ-11" value="&lt;pre data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;CheckVersionUrl&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="HWv7p2b8OiSIe4U5fViz-3" vertex="1">
           <mxGeometry x="78.33333333333333" y="70" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="HWv7p2b8OiSIe4U5fViz-3">
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="HWv7p2b8OiSIe4U5fViz-3" target="HWv7p2b8OiSIe4U5fViz-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="329.5" as="sourcePoint" />
             <mxPoint x="240" y="329.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="175" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1510" y="380" width="120" height="480" as="geometry" />
+          <mxGeometry x="1530" y="400" width="120" height="480" as="geometry" />
         </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-4" value="checkResources（检查资源更新）" style="whiteSpace=wrap;html=1;" vertex="1" parent="HWv7p2b8OiSIe4U5fViz-13">
           <mxGeometry width="120" height="60" as="geometry" />
@@ -164,16 +167,13 @@
         <mxCell id="HWv7p2b8OiSIe4U5fViz-19" value="获取资源信息存入字典" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="707" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-NY-747oekvJskKpAdoQ-9" target="HWv7p2b8OiSIe4U5fViz-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-22" value="下载versionList 进行版本号比对，如果不相同则更新" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="1530" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HWv7p2b8OiSIe4U5fViz-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HWv7p2b8OiSIe4U5fViz-22">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1570" y="310" as="sourcePoint" />
-            <mxPoint x="1570" y="380" as="targetPoint" />
+            <mxPoint x="1590" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
