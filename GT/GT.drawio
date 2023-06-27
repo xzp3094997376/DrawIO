@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T06:14:31.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="kC540XiV8b4ExxGdLNV4" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T07:51:30.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="sWqa3-_dsrl2bZjCrIAX" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,8 +242,23 @@
         <mxCell id="yI05zYHsDVhouOjmOH0p-2" value="ResetProcedure(初始化procedure,创建热更新流程发状态机)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="777" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yI05zYHsDVhouOjmOH0p-5" target="yI05zYHsDVhouOjmOH0p-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yI05zYHsDVhouOjmOH0p-5" value="开始流程&lt;br&gt;&lt;pre data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;GT.Hotfix.ProcedurePreload&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="777" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yI05zYHsDVhouOjmOH0p-7" target="yI05zYHsDVhouOjmOH0p-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-7" value="数据初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="777" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-12" value="DataTable" style="swimlane;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1680" width="270" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="yI05zYHsDVhouOjmOH0p-13" value="LoadDataTable&lt;br&gt;数据表初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="yI05zYHsDVhouOjmOH0p-12">
+          <mxGeometry x="75" y="50" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
