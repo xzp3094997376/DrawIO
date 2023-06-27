@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T00:49:07.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="r6Ye_zcPfsxEYL_DnfFO" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-27T00:51:35.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="jw516W-WmfPXXJRz_fL3" version="21.5.0" type="github" pages="2">
   <diagram id="Ckb2wa7dTxm9xzStYSq4" name="Page-1">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
         <mxCell id="vCBYs28Tyf5CISLXmm9o-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="vCBYs28Tyf5CISLXmm9o-15" source="vCBYs28Tyf5CISLXmm9o-18" target="vCBYs28Tyf5CISLXmm9o-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vCBYs28Tyf5CISLXmm9o-18" value="序列化memory-stream 中" style="whiteSpace=wrap;html=1;" parent="vCBYs28Tyf5CISLXmm9o-15" vertex="1">
+        <mxCell id="vCBYs28Tyf5CISLXmm9o-18" value="进入队列，序列化memory-stream 中" style="whiteSpace=wrap;html=1;" parent="vCBYs28Tyf5CISLXmm9o-15" vertex="1">
           <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vCBYs28Tyf5CISLXmm9o-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="vCBYs28Tyf5CISLXmm9o-15" target="vCBYs28Tyf5CISLXmm9o-18" edge="1">
