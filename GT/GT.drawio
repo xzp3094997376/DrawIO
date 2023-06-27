@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T05:19:41.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="0_XjdzeeY3Skn7E7wjhL" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-27T05:23:58.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="FwgU7-qNI_JXnos6W8oJ" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,6 +170,14 @@
             <mxPoint x="1590" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWv7p2b8OiSIe4U5fViz-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-27" value="GameEntry.prefab 热更资源加载" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1152.31" y="720" width="120" height="60" as="geometry" />
         </mxCell>
@@ -191,6 +199,36 @@
         </mxCell>
         <mxCell id="HWv7p2b8OiSIe4U5fViz-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2t9DX1kFWUm2xrZ-zth3-2" target="HWv7p2b8OiSIe4U5fViz-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.354;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-NY-747oekvJskKpAdoQ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="920" as="sourcePoint" />
+            <mxPoint x="830" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="880" />
+              <mxPoint x="650" y="880" />
+              <mxPoint x="800" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HWv7p2b8OiSIe4U5fViz-33" target="HWv7p2b8OiSIe4U5fViz-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-33" value="GameEntry.prefab" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="777" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HWv7p2b8OiSIe4U5fViz-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="860" as="sourcePoint" />
+            <mxPoint x="830" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="860" />
+              <mxPoint x="830" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HWv7p2b8OiSIe4U5fViz-35" value="SceneObject" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
