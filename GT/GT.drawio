@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T06:36:33.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="sqYH5gzhInvy40PbROoT" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-28T06:42:08.917Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="gcqQY8UIZV2wbwD_frS8" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -398,7 +398,7 @@
             <mxPoint x="550" y="3670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UfWwseGcGakqzqghgAgB-4" value="Goal 状态" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="wmqOc8fDUDbuYKHeCNPr-20">
+        <mxCell id="UfWwseGcGakqzqghgAgB-4" value="Goal 状态(默认一个goal)" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="wmqOc8fDUDbuYKHeCNPr-20">
           <mxGeometry x="290" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UfWwseGcGakqzqghgAgB-14" value="Cmd 列表" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
@@ -411,7 +411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zIt2aTO-NISMem9votan" name="confg 配置">
-    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,7 +500,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SZ3JPSvIUrxthtODppds" name="节点">
-    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -630,7 +630,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oHXuIZWkzdq0KQBTFTY6" name="热更新">
-    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -695,7 +695,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mnMhRoHidRih1ta3WfNh" name="Unity场景功能划分">
-    <mxGraphModel dx="2836" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
