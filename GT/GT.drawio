@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T05:57:53.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="LrUXulUMEdwK6zIVSPiC" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-28T06:28:49.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="wtVJ77Q8R5YCutnvE3PN" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -547,7 +547,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PRpd5AKmWERJYRKtCKfJ" name="命令">
-    <mxGraphModel dx="2009" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -594,6 +594,25 @@
         </mxCell>
         <mxCell id="5fh9AJM1ZKbWQAd4hFO2-13" value="SceneObj 扩展" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qYnHrVotUoiJWQquGa-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X0qYnHrVotUoiJWQquGa-2" target="X0qYnHrVotUoiJWQquGa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qYnHrVotUoiJWQquGa-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X0qYnHrVotUoiJWQquGa-2" target="X0qYnHrVotUoiJWQquGa-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X0qYnHrVotUoiJWQquGa-2" value="Command" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qYnHrVotUoiJWQquGa-3" value="execute 执行命令" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0qYnHrVotUoiJWQquGa-5" value="unExecute 执行命令" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
