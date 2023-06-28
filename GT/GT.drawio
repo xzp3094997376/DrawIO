@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T05:55:55.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="hwCcgOm_FhbQXqo7u0jZ" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-28T05:57:53.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="LrUXulUMEdwK6zIVSPiC" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -377,7 +377,7 @@
         <mxCell id="wmqOc8fDUDbuYKHeCNPr-17" value="&lt;pre data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;m_CurrentState&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(189, 189, 189); --darkreader-inline-color: #d4cab9;&quot;&gt;.&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(57, 204, 143); --darkreader-inline-color: #72d7a2;&quot;&gt;OnEnter&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(189, 189, 189); --darkreader-inline-color: #d4cab9;&quot;&gt;();&lt;/span&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="3530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wmqOc8fDUDbuYKHeCNPr-20" value="状态循环" style="swimlane;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
+        <mxCell id="wmqOc8fDUDbuYKHeCNPr-20" value="状态循环：Runtime" style="swimlane;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="3400" width="320" height="510" as="geometry" />
         </mxCell>
         <mxCell id="wmqOc8fDUDbuYKHeCNPr-21" value="&lt;font color=&quot;#fff2f5&quot; style=&quot;--darkreader-inline-color: #ffdada;&quot; data-darkreader-inline-color=&quot;&quot;&gt;Goals 状态机&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="wmqOc8fDUDbuYKHeCNPr-20">
