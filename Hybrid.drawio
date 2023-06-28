@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T06:04:30.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="UmatRqhQ07Ny994uWu84" version="21.3.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:00:34.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="6KgK7m2mTEkTmKnqOedR" version="21.5.0" type="github" pages="3">
   <diagram id="a4xEopkv2bsVfKYn4HD9" name="使用流程">
     <mxGraphModel dx="2846" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,7 +230,7 @@
         <mxCell id="EoGhAd8UYBKwOIdFuY8u-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EoGhAd8UYBKwOIdFuY8u-59" source="EoGhAd8UYBKwOIdFuY8u-60" target="EoGhAd8UYBKwOIdFuY8u-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EoGhAd8UYBKwOIdFuY8u-63" value="实例化反射" style="rounded=0;whiteSpace=wrap;html=1;" parent="EoGhAd8UYBKwOIdFuY8u-59" vertex="1">
+        <mxCell id="EoGhAd8UYBKwOIdFuY8u-63" value="实例化反射&lt;br&gt;程序集gettype&lt;br&gt;对象实例化反射调用实例方法" style="rounded=0;whiteSpace=wrap;html=1;" parent="EoGhAd8UYBKwOIdFuY8u-59" vertex="1">
           <mxGeometry x="240" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EoGhAd8UYBKwOIdFuY8u-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EoGhAd8UYBKwOIdFuY8u-59" source="EoGhAd8UYBKwOIdFuY8u-61" target="EoGhAd8UYBKwOIdFuY8u-63" edge="1">
@@ -254,6 +254,12 @@
         </mxCell>
         <mxCell id="EoGhAd8UYBKwOIdFuY8u-69" value="加载热更新hotfixdll bytes" style="rounded=0;whiteSpace=wrap;html=1;" parent="EoGhAd8UYBKwOIdFuY8u-59" vertex="1">
           <mxGeometry y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ6frmkLpcPq_fDJUewf-1" value="A&lt;b&gt;B 包加载预制体调用&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ6frmkLpcPq_fDJUewf-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EoGhAd8UYBKwOIdFuY8u-65" target="cQ6frmkLpcPq_fDJUewf-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
