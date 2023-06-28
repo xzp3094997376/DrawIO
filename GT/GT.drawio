@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T06:36:11.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="v8p6maeUS4Gab33etOPH" version="21.5.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-06-28T06:36:33.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="sqYH5gzhInvy40PbROoT" version="21.5.0" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -378,7 +378,7 @@
           <mxGeometry x="300" y="3530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wmqOc8fDUDbuYKHeCNPr-20" value="状态循环：Runtime" style="swimlane;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="3400" width="420" height="510" as="geometry" />
+          <mxGeometry x="120" y="3400" width="440" height="510" as="geometry" />
         </mxCell>
         <mxCell id="UfWwseGcGakqzqghgAgB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wmqOc8fDUDbuYKHeCNPr-20" source="UfWwseGcGakqzqghgAgB-4" target="UfWwseGcGakqzqghgAgB-1">
           <mxGeometry relative="1" as="geometry" />
@@ -402,7 +402,7 @@
           <mxGeometry x="290" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UfWwseGcGakqzqghgAgB-14" value="Cmd 列表" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="690" y="3720" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="3720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UfWwseGcGakqzqghgAgB-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UfWwseGcGakqzqghgAgB-4" target="UfWwseGcGakqzqghgAgB-14">
           <mxGeometry relative="1" as="geometry" />
