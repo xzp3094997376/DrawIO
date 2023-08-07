@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T05:41:36.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="l7DdL_NXpb6Dxdvok2WF" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T05:43:19.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="hQaVFqrFnrkj7-njdDtQ" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -410,8 +410,11 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-5" value="GT.Main&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-490" y="-1940" width="1140" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-8" value="GT.Main.Proceduelaunch" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-5">
+        <mxCell id="w1uKiVOYl2uujew_2ssP-8" value="GT.Main.ProcedueL&lt;br&gt;aunch" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-5">
           <mxGeometry x="513" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-9" value="启动入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-5">
+          <mxGeometry x="700" y="55" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
