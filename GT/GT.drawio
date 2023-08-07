@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T07:41:47.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="8pwfSht6mad6BDKlBIVx" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T07:53:47.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="lrLtXIlUTBMokldo32gh" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -536,21 +536,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-96" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-3520" y="-550" width="660" height="510" as="geometry" />
+          <mxGeometry x="-3520" y="-550" width="3640" height="610" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-98" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="w1uKiVOYl2uujew_2ssP-96">
-          <mxGeometry width="660" height="510" as="geometry" />
+          <mxGeometry width="3640" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-98" source="w1uKiVOYl2uujew_2ssP-81" target="w1uKiVOYl2uujew_2ssP-104">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-81" value="1.init 初始化" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
           <mxGeometry x="140" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-85" value="Task创建&lt;br&gt;&amp;nbsp;1.Node节点" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
+        <mxCell id="w1uKiVOYl2uujew_2ssP-85" value="Task创建&lt;br&gt;&amp;nbsp;1.Node节点&lt;br&gt;2.初始化节点数据" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
           <mxGeometry x="60" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-98" source="w1uKiVOYl2uujew_2ssP-81" target="w1uKiVOYl2uujew_2ssP-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-98" source="w1uKiVOYl2uujew_2ssP-81" target="w1uKiVOYl2uujew_2ssP-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-104" value="2.Task开始任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
+          <mxGeometry x="212" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-106" value="1.currentstate 开始" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
+          <mxGeometry x="150" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-98" source="w1uKiVOYl2uujew_2ssP-104" target="w1uKiVOYl2uujew_2ssP-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
