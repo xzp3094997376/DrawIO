@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T07:53:47.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="lrLtXIlUTBMokldo32gh" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T07:55:54.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="Q-Q64NIKmMDZwfhW4o_m" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -559,7 +559,7 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-104" value="2.Task开始任务" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
           <mxGeometry x="212" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-106" value="1.currentstate 开始" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
+        <mxCell id="w1uKiVOYl2uujew_2ssP-106" value="1.currentstate &lt;br&gt;OnEnter开始" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-98">
           <mxGeometry x="150" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-98" source="w1uKiVOYl2uujew_2ssP-104" target="w1uKiVOYl2uujew_2ssP-106">
