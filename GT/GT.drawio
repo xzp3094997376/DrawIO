@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T07:14:23.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="gJOHDsZQeBXQsjfFULSS" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T07:34:33.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="yqeas5htProsVP1_RIEw" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,7 +408,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-5" value="GT.Main&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3300" y="-2100" width="3420" height="2160" as="geometry" />
+          <mxGeometry x="-3380" y="-2100" width="3500" height="860" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="w1uKiVOYl2uujew_2ssP-5" source="w1uKiVOYl2uujew_2ssP-8" target="w1uKiVOYl2uujew_2ssP-24">
           <mxGeometry relative="1" as="geometry">
@@ -461,16 +461,28 @@
           <mxGeometry x="210" y="665" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-67" value="GT.HotFix" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-5">
-          <mxGeometry x="-510" y="870" width="2480" height="950" as="geometry" />
+          <mxGeometry x="-510" y="870" width="3930" height="1290" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-31" value="销毁之前的GT.main的procedrue" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-67">
           <mxGeometry x="104" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-78" value="0&lt;br&gt;0.加载Task Excel数据表" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-67">
-          <mxGeometry x="270" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-67" source="w1uKiVOYl2uujew_2ssP-81" target="w1uKiVOYl2uujew_2ssP-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-67" source="w1uKiVOYl2uujew_2ssP-81" target="w1uKiVOYl2uujew_2ssP-85">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-81" value="1.init 初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-67">
-          <mxGeometry x="530" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="390" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-85" value="Task创建&lt;br&gt;&amp;nbsp;1.Node节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-67">
+          <mxGeometry x="310" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-89" value="" style="swimlane;startSize=0;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-67">
+          <mxGeometry x="250" y="670" width="660" height="510" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-5" source="w1uKiVOYl2uujew_2ssP-28" target="w1uKiVOYl2uujew_2ssP-31">
           <mxGeometry relative="1" as="geometry" />
