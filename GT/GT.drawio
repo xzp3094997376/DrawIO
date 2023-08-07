@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T06:23:10.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="EeQ9p8LwnM0xoP9QeyNx" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T06:48:41.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="X3RaAl-C6I1s7wMj-IiC" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="igaIX1w3Rg4hu6XiSQ7m" name="运行流程">
-    <mxGraphModel dx="4500" dy="3486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4237" dy="3336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -408,7 +408,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-5" value="GT.Main&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1850" y="-2110" width="1970" height="1740" as="geometry" />
+          <mxGeometry x="-1840" y="-2070" width="1970" height="2170" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="w1uKiVOYl2uujew_2ssP-5" source="w1uKiVOYl2uujew_2ssP-8" target="w1uKiVOYl2uujew_2ssP-24">
           <mxGeometry relative="1" as="geometry">
@@ -461,7 +461,7 @@
           <mxGeometry x="210" y="665" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-68" value="" style="group" vertex="1" connectable="0" parent="w1uKiVOYl2uujew_2ssP-5">
-          <mxGeometry x="20" y="1000" width="360" height="640" as="geometry" />
+          <mxGeometry x="20" y="1000" width="1950" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-59" value="模拟模式" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
           <mxGeometry y="300" width="120" height="60" as="geometry" />
@@ -469,7 +469,7 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-63" value="&lt;pre data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;ProcedureGameSimulate&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
           <mxGeometry y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-65" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
+        <mxCell id="w1uKiVOYl2uujew_2ssP-65" value="加载Task 数据表" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
           <mxGeometry y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-73" value="" style="group" vertex="1" connectable="0" parent="w1uKiVOYl2uujew_2ssP-68">
@@ -507,8 +507,14 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-73" source="w1uKiVOYl2uujew_2ssP-63" target="w1uKiVOYl2uujew_2ssP-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-74" value="GameSimulate(初始化任务)" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
+          <mxGeometry y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-68" source="w1uKiVOYl2uujew_2ssP-65" target="w1uKiVOYl2uujew_2ssP-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-67" value="GT.HotFix" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-5">
-          <mxGeometry x="-4" y="870" width="1974" height="870" as="geometry" />
+          <mxGeometry x="-30" y="870" width="2000" height="950" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-31" value="销毁之前的GT.main的procedrue" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-67">
           <mxGeometry x="104" y="30" width="120" height="60" as="geometry" />
