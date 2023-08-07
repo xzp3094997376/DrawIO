@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T09:03:57.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="8liKHEPFwsTd7kMmCtW-" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T09:04:58.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="RCC0Rtbt3FxqDepNJEaV" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -562,7 +562,7 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-108" value="0.初始化场景数据&lt;br&gt;1." style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-3812" y="-1530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-112" value="1.设置主角，头和手&lt;br&gt;2.场景中的交互物体引用保存，初始化&lt;br&gt;3.场景中的点物体初始化&lt;br&gt;4.数据点对象引用初始化" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="w1uKiVOYl2uujew_2ssP-112" value="SceneObject管理：&lt;br&gt;&lt;br&gt;1.设置主角，头和手&lt;br&gt;2.场景中的交互物体引用保存，初始化&lt;br&gt;3.场景中的点物体初始化&lt;br&gt;4.数据点对象引用初始化" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-4000" y="-1440" width="158" height="120" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-114" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
