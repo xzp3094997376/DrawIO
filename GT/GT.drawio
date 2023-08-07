@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T06:48:41.234Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="X3RaAl-C6I1s7wMj-IiC" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-07T06:50:32.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="_f95qw4Yy-ojHG5jyLNn" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="igaIX1w3Rg4hu6XiSQ7m" name="运行流程">
-    <mxGraphModel dx="4237" dy="3336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4856" dy="3689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -469,9 +469,6 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-63" value="&lt;pre data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;ProcedureGameSimulate&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
           <mxGeometry y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-65" value="加载Task 数据表" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
-          <mxGeometry y="580" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-73" value="" style="group" vertex="1" connectable="0" parent="w1uKiVOYl2uujew_2ssP-68">
           <mxGeometry x="80" width="280" height="360" as="geometry" />
         </mxCell>
@@ -504,14 +501,16 @@
         <mxCell id="w1uKiVOYl2uujew_2ssP-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-73" source="w1uKiVOYl2uujew_2ssP-59" target="w1uKiVOYl2uujew_2ssP-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-73" source="w1uKiVOYl2uujew_2ssP-63" target="w1uKiVOYl2uujew_2ssP-65">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w1uKiVOYl2uujew_2ssP-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-73" source="w1uKiVOYl2uujew_2ssP-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-74" value="GameSimulate(初始化任务)" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
           <mxGeometry y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w1uKiVOYl2uujew_2ssP-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-68" source="w1uKiVOYl2uujew_2ssP-65" target="w1uKiVOYl2uujew_2ssP-74">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w1uKiVOYl2uujew_2ssP-78" value="加载Task 数据表" style="whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-68">
+          <mxGeometry y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-67" value="GT.HotFix" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="w1uKiVOYl2uujew_2ssP-5">
           <mxGeometry x="-30" y="870" width="2000" height="950" as="geometry" />
@@ -524,6 +523,11 @@
         </mxCell>
         <mxCell id="w1uKiVOYl2uujew_2ssP-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-5" source="w1uKiVOYl2uujew_2ssP-31" target="w1uKiVOYl2uujew_2ssP-33">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w1uKiVOYl2uujew_2ssP-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="w1uKiVOYl2uujew_2ssP-5" source="w1uKiVOYl2uujew_2ssP-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
