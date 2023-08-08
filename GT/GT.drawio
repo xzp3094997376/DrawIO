@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T08:17:14.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="pLfpTe-pQmxZTN3t7MD3" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:23:36.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="0gC8ehrBTwku60P30X-Q" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,13 +10,16 @@
         <mxCell id="opvZ2vaqny0l2eabtiRp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PqYV0M9kYv4kejPSQOvV-2" target="opvZ2vaqny0l2eabtiRp-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PqYV0M9kYv4kejPSQOvV-2" target="opvZ2vaqny0l2eabtiRp-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PqYV0M9kYv4kejPSQOvV-2" value="使用&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqYV0M9kYv4kejPSQOvV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PqYV0M9kYv4kejPSQOvV-3" target="PqYV0M9kYv4kejPSQOvV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqYV0M9kYv4kejPSQOvV-3" value="1.配置文件" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PqYV0M9kYv4kejPSQOvV-3" value="0.配置文件" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqYV0M9kYv4kejPSQOvV-5" value="2.导出数据和脚本&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -60,6 +63,9 @@
         </mxCell>
         <mxCell id="opvZ2vaqny0l2eabtiRp-19" value="角色物体配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-21" value="2.任务节点创建" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
