@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T08:15:49.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="oJ9jUGtZXBGo-56CJi7h" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:17:14.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="pLfpTe-pQmxZTN3t7MD3" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,11 +43,23 @@
         <mxCell id="opvZ2vaqny0l2eabtiRp-9" value="物体配置&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="opvZ2vaqny0l2eabtiRp-11" value="工具配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="630" width="120" height="60" as="geometry" />
+        <mxCell id="opvZ2vaqny0l2eabtiRp-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opvZ2vaqny0l2eabtiRp-11" target="opvZ2vaqny0l2eabtiRp-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="opvZ2vaqny0l2eabtiRp-15" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="opvZ2vaqny0l2eabtiRp-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opvZ2vaqny0l2eabtiRp-11" target="opvZ2vaqny0l2eabtiRp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-11" value="交互物体配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-15" value="角色配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-17" value="工具配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-19" value="角色物体配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
