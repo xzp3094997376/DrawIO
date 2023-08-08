@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T08:26:21.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="b-0IaPqj9dya_zmIZHyr" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-08T08:28:28.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="luygA97ACeYgQLStYsHk" version="21.6.6" type="github" pages="8">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2019" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,26 @@
         <mxCell id="opvZ2vaqny0l2eabtiRp-23" value="Task 节点配置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="opvZ2vaqny0l2eabtiRp-25" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="opvZ2vaqny0l2eabtiRp-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opvZ2vaqny0l2eabtiRp-25" target="opvZ2vaqny0l2eabtiRp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-25" value="3.打包" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opvZ2vaqny0l2eabtiRp-27" target="opvZ2vaqny0l2eabtiRp-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-27" value="1.打包成AB 包" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="opvZ2vaqny0l2eabtiRp-31" target="opvZ2vaqny0l2eabtiRp-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-31" value="运行" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opvZ2vaqny0l2eabtiRp-33" value="根据不同的加载模式，将资源放在对应的路径下" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
