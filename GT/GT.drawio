@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T02:53:44.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="xYu3-xy8HiHur7Ne-qSF" version="21.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-09T07:03:35.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="XsvehBYGy33PssCrwQjQ" version="21.6.6" type="github" pages="9">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="1683" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -945,6 +945,11 @@
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xUl0Wbh5LikUEKO1sG4-3" target="0xUl0Wbh5LikUEKO1sG4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="0xUl0Wbh5LikUEKO1sG4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1080" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-3" value="可视化节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1220" y="660" width="120" height="60" as="geometry" />
         </mxCell>
@@ -956,6 +961,21 @@
         </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-8" value="继承ITaksGraph" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1410" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xUl0Wbh5LikUEKO1sG4-12" target="0xUl0Wbh5LikUEKO1sG4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-12" value="ITaskGraph" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-16" value="&lt;b&gt;&lt;u&gt;Editor&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1345" y="770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-18" value="Runtime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="768" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
