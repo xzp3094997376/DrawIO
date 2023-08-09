@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T08:28:03.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="TzGBX41QfmZC0fkS50nc" version="21.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-09T08:57:04.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="z43-qKox5AUPUd6sNdbg" version="21.6.6" type="github" pages="9">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="1683" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -870,7 +870,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SZ3JPSvIUrxthtODppds" name="节点">
-    <mxGraphModel dx="3355" dy="2128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4525" dy="2788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1015,6 +1015,24 @@
         </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-30" value="递归保存后方节点id" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-1030" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-32" value="TaskStateComponent" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.424;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="4FOWWaKbkUvAEhG_MqS8-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="60" as="sourcePoint" />
+            <mxPoint x="370" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1400" y="-170" as="sourcePoint" />
+            <mxPoint x="-1400" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-35" value="Node 节点的一部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1460" y="-100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
