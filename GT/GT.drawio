@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T07:10:02.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="Cg8Uxs8weQMEnGVgIeoB" version="21.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-09T07:17:57.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="ZLKd17hyRCLqKaUlfC3r" version="21.6.6" type="github" pages="9">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="1683" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -950,7 +950,7 @@
             <mxPoint x="-1080" y="690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-3" value="可视化节点扩展" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-3" value="TaskNode&lt;br&gt;可视化节点扩展" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1220" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xUl0Wbh5LikUEKO1sG4-4" target="0xUl0Wbh5LikUEKO1sG4-8">
