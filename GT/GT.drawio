@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T07:30:17.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="ww9xNve027qWsKOqSMDG" version="21.6.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-10T07:50:04.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="ao6Iznejt5wT471k4Tzv" version="21.6.7" type="github" pages="9">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1545,7 +1545,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eH3iE-v76ZErmmaW9VWA" name="TTS">
-    <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2741" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1558,11 +1558,29 @@
         <mxCell id="-pgVZDqq5GjJAkBg98mN-1" value="TTS&amp;nbsp; 音频" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-pgVZDqq5GjJAkBg98mN-2" value="1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-pgVZDqq5GjJAkBg98mN-2" target="-pgVZDqq5GjJAkBg98mN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-pgVZDqq5GjJAkBg98mN-2" target="-pgVZDqq5GjJAkBg98mN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-2" value="1.从task 表中刷新content" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-pgVZDqq5GjJAkBg98mN-4" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-6" value="1.指定EXcel 表格名字TaskConfigId&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-pgVZDqq5GjJAkBg98mN-8" target="-pgVZDqq5GjJAkBg98mN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-8" value="2.刷新&lt;br&gt;（首次，从Task 表中筛选panel content&amp;nbsp; 作为音频内容）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-pgVZDqq5GjJAkBg98mN-11" value="1.首次读取将音频内容保存到TTS Collection" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
