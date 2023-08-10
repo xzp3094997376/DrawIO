@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T09:03:03.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="wL-MGg2AqLhmi0k9QJiV" version="21.6.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:29:19.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="H0DHcr2X4Mviy7ldKGiP" version="21.6.7" type="github" pages="10">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1653,7 +1653,7 @@
         <mxCell id="0a-xA97x3MdMc9Y4wTaA-4" value="TTS语音" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0a-xA97x3MdMc9Y4wTaA-6" value="打开UI 时，会自动读语音" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-6" value="打开UI 时，GameEntry.SpeakCom 会自动读语音" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
