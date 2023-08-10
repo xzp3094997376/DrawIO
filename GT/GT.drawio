@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T09:29:19.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="H0DHcr2X4Mviy7ldKGiP" version="21.6.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:32:34.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="vV0TShAWhtDHlBmjQwBK" version="21.6.7" type="github" pages="10">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -879,7 +879,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SZ3JPSvIUrxthtODppds" name="节点">
-    <mxGraphModel dx="6049" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="8311" dy="3524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1156,9 +1156,6 @@
         </mxCell>
         <mxCell id="MWqLzmagk2NIYoGXm69e-9" value="状态机执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-620" y="-417" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MWqLzmagk2NIYoGXm69e-10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2300" y="-562" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1631,7 +1628,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zModnPu7dtGkNxy57yW3" name="UI">
-    <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1914" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
