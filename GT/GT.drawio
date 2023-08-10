@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:12:31.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="MwlRaF2J9RQFvXID_Rmp" version="21.6.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-10T08:16:45.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="7ZirNuQ1zCbHei_nkIJF" version="21.6.7" type="github" pages="9">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -745,7 +745,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zIt2aTO-NISMem9votan" name="confg 配置">
-    <mxGraphModel dx="2741" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3529" dy="1524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -879,7 +879,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SZ3JPSvIUrxthtODppds" name="节点">
-    <mxGraphModel dx="6432" dy="2464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6049" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -986,7 +986,7 @@
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-18" value="Runtime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-970" y="778" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-19" value="Goals" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-19" value="Goals" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-1460" y="-230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="0xUl0Wbh5LikUEKO1sG4-20" target="0xUl0Wbh5LikUEKO1sG4-21" edge="1">
@@ -1034,28 +1034,28 @@
             <mxPoint x="370" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.528;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="0xUl0Wbh5LikUEKO1sG4-35" edge="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.528;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" target="0xUl0Wbh5LikUEKO1sG4-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1400" y="-170" as="sourcePoint" />
             <mxPoint x="-1400" y="-100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-35" value="Cmds 列表" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-35" value="Cmds 列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-1465" y="-40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-36" value="TaskNode" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-36" value="TaskNode" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-1460" y="-410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="0xUl0Wbh5LikUEKO1sG4-19" edge="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" target="0xUl0Wbh5LikUEKO1sG4-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1400" y="-350" as="sourcePoint" />
             <mxPoint x="-1350" y="-400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-39" value="任务节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-39" value="任务节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-1340" y="-402" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0xUl0Wbh5LikUEKO1sG4-40" value="Task Node 节点的一部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="0xUl0Wbh5LikUEKO1sG4-40" value="Task Node 节点的一部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-1330" y="-220" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="upigKjn3MLCyXJM2dSz2-1" value="节点带有Goal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1129,6 +1129,9 @@
         </mxCell>
         <mxCell id="upigKjn3MLCyXJM2dSz2-25" value="3.将所有节点信息写入到excel表格中" style="whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-2450" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-1" value="编辑器下所有节点只和Excel相关&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1740" y="-322" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
