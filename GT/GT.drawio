@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:16:45.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="7ZirNuQ1zCbHei_nkIJF" version="21.6.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:03:03.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="wL-MGg2AqLhmi0k9QJiV" version="21.6.7" type="github" pages="10">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1053,10 +1053,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-39" value="任务节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
-          <mxGeometry x="-1340" y="-402" width="70" height="30" as="geometry" />
+          <mxGeometry x="-1300" y="-402" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0xUl0Wbh5LikUEKO1sG4-40" value="Task Node 节点的一部分" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry x="-1330" y="-220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="upigKjn3MLCyXJM2dSz2-1" target="MWqLzmagk2NIYoGXm69e-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="upigKjn3MLCyXJM2dSz2-1" value="节点带有Goal" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1220" y="-584" width="120" height="60" as="geometry" />
@@ -1132,6 +1135,30 @@
         </mxCell>
         <mxCell id="MWqLzmagk2NIYoGXm69e-1" value="编辑器下所有节点只和Excel相关&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1740" y="-322" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWqLzmagk2NIYoGXm69e-2" target="MWqLzmagk2NIYoGXm69e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MWqLzmagk2NIYoGXm69e-2" target="MWqLzmagk2NIYoGXm69e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-2" value="goal 任务执行" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="-417" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-4" value="运行时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="-522" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-5" value="cmd 执行" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-7" value="非cmd 执行" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="-270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-9" value="状态机执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-417" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MWqLzmagk2NIYoGXm69e-10" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2300" y="-562" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1557,7 +1584,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="eH3iE-v76ZErmmaW9VWA" name="TTS">
-    <mxGraphModel dx="4108" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2741" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1599,6 +1626,35 @@
         </mxCell>
         <mxCell id="-pgVZDqq5GjJAkBg98mN-15" value="将音频下载到本地" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="690" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zModnPu7dtGkNxy57yW3" name="UI">
+    <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0a-xA97x3MdMc9Y4wTaA-1" target="0a-xA97x3MdMc9Y4wTaA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0a-xA97x3MdMc9Y4wTaA-1" target="0a-xA97x3MdMc9Y4wTaA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-1" value="UGUI3DForm" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-2" value="继承UGuiForm" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0a-xA97x3MdMc9Y4wTaA-4" target="0a-xA97x3MdMc9Y4wTaA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-4" value="TTS语音" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0a-xA97x3MdMc9Y4wTaA-6" value="打开UI 时，会自动读语音" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
