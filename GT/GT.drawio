@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T06:22:06.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="FdXV0ABoWNuAp1DuYkgA" version="21.6.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-10T06:28:02.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="v90-0dyYmtkdwP7WMGMk" version="21.6.7" type="github" pages="9">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1079,7 +1079,7 @@
         <mxCell id="upigKjn3MLCyXJM2dSz2-6" value="任务节点编辑器窗口&lt;br&gt;1.新建节点窗口&lt;br&gt;2.右侧菜单栏按钮窗口初始化{添加按钮}&lt;br&gt;3.节点窗口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3090" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upigKjn3MLCyXJM2dSz2-8" value="刷新节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="upigKjn3MLCyXJM2dSz2-8" value="0.反序列化excel数据&lt;br&gt;1.刷新节点&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3490" y="890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="upigKjn3MLCyXJM2dSz2-13" value="将excel中的数据&lt;br&gt;可视化到task node 节点中&lt;br&gt;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1106,19 +1106,19 @@
         <mxCell id="upigKjn3MLCyXJM2dSz2-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="upigKjn3MLCyXJM2dSz2-18" target="upigKjn3MLCyXJM2dSz2-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="upigKjn3MLCyXJM2dSz2-18" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="upigKjn3MLCyXJM2dSz2-18" value="导出到excel 表中&lt;br&gt;1.NodeGraph编辑器中获取所有节点，&lt;br&gt;2." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2690" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="upigKjn3MLCyXJM2dSz2-20" value="Excel导出数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2770" y="788" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="upigKjn3MLCyXJM2dSz2-21" value="1.节点id赋值排序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="upigKjn3MLCyXJM2dSz2-21" value="1.节点id赋值&lt;br&gt;根据id从小到大排序list" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2894" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upigKjn3MLCyXJM2dSz2-23" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="upigKjn3MLCyXJM2dSz2-23" value="2.计算node 节点位置信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2690" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upigKjn3MLCyXJM2dSz2-25" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="upigKjn3MLCyXJM2dSz2-25" value="3.将所有节点信息写入到excel表格中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2450" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
