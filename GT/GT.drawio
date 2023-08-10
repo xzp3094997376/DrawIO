@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T09:50:37.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="ymln6-CWF-9coC-XdyVs" version="21.6.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-08-10T09:51:56.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="rZZL1FMFqyYlG3Vkzcs7" version="21.6.7" type="github" pages="10">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -458,17 +458,13 @@
         <mxCell id="wmqOc8fDUDbuYKHeCNPr-20" value="状态循环：Runtime" style="swimlane;whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="3400" width="440" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="UfWwseGcGakqzqghgAgB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wmqOc8fDUDbuYKHeCNPr-20" source="UfWwseGcGakqzqghgAgB-4" target="UfWwseGcGakqzqghgAgB-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UfWwseGcGakqzqghgAgB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wmqOc8fDUDbuYKHeCNPr-20" source="UfWwseGcGakqzqghgAgB-4" target="UfWwseGcGakqzqghgAgB-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UfWwseGcGakqzqghgAgB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wmqOc8fDUDbuYKHeCNPr-20" source="UfWwseGcGakqzqghgAgB-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wmqOc8fDUDbuYKHeCNPr-21" value="&lt;font color=&quot;#fff2f5&quot; style=&quot;--darkreader-inline-color: #ffdada;&quot; data-darkreader-inline-color=&quot;&quot;&gt;Node 状态机&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="wmqOc8fDUDbuYKHeCNPr-20" vertex="1">
           <mxGeometry x="100" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="UfWwseGcGakqzqghgAgB-1" value="&lt;font color=&quot;#fff2f5&quot; style=&quot;--darkreader-inline-color: #ffdada;&quot; data-darkreader-inline-color=&quot;&quot;&gt;Node 状态机&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="wmqOc8fDUDbuYKHeCNPr-20" vertex="1">
-          <mxGeometry x="290" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UfWwseGcGakqzqghgAgB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wmqOc8fDUDbuYKHeCNPr-20" source="wmqOc8fDUDbuYKHeCNPr-21" target="UfWwseGcGakqzqghgAgB-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -484,6 +480,15 @@
         </mxCell>
         <mxCell id="mVHeGOfJ22gFyVXEZZbP-1" value="goal Node节点Update循环检测完成" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" vertex="1" parent="wmqOc8fDUDbuYKHeCNPr-20">
           <mxGeometry x="290" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mVHeGOfJ22gFyVXEZZbP-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="wmqOc8fDUDbuYKHeCNPr-20" target="mVHeGOfJ22gFyVXEZZbP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="480" as="sourcePoint" />
+            <mxPoint x="350" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UfWwseGcGakqzqghgAgB-14" value="Cmd 列表" style="whiteSpace=wrap;html=1;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="3720" width="120" height="60" as="geometry" />
@@ -746,6 +751,12 @@
             <mxPoint x="-2670" y="-2540" as="sourcePoint" />
             <mxPoint x="-3490" y="-2770" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mVHeGOfJ22gFyVXEZZbP-4" value="下一个状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="3900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mVHeGOfJ22gFyVXEZZbP-5" value="切换" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="3948" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
