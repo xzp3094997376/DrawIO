@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T03:34:49.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="N321Cz9cJDyVRN05TFGr" version="21.6.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-08-11T03:35:10.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="s9rNJp8cI-iZWqXOVQY_" version="21.6.7" type="github" pages="11">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1664,7 +1664,7 @@
         <mxCell id="KO3m4ROhJI65p5Pgjx5z-11" value="手持装备" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="725" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_1MVjpuNq6xnzcvjUG_k-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_1MVjpuNq6xnzcvjUG_k-1" value="3D Object" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-170" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_1MVjpuNq6xnzcvjUG_k-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="_1MVjpuNq6xnzcvjUG_k-1">
