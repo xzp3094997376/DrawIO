@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T03:41:19.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="ruZ4vzE6gG0rbo2P7Dgb" version="21.6.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-08-11T06:05:03.036Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.200" etag="cIBmFDMZk-KY-NsYiiRB" version="21.6.7" type="github" pages="11">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -891,7 +891,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SZ3JPSvIUrxthtODppds" name="节点">
-    <mxGraphModel dx="10698" dy="4869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7669" dy="3161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1261,11 +1261,17 @@
         <mxCell id="68E5DjxGu4OtK7wzsjOc-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NwWsOquP4QqUdggMTeTs-8" target="68E5DjxGu4OtK7wzsjOc-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UxPUSmWhGre0qz8rh2Ab-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NwWsOquP4QqUdggMTeTs-8" target="UxPUSmWhGre0qz8rh2Ab-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NwWsOquP4QqUdggMTeTs-8" value="找到物体上对应的类，执行方法的参数类型&lt;br&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-890" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68E5DjxGu4OtK7wzsjOc-1" value="gameUtility." style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UxPUSmWhGre0qz8rh2Ab-1" value="找到对应的类型，跟踪参数传递" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
