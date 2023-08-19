@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T08:55:46.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="XPl7Nx0gZ-QHHK4JKftZ" version="21.6.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-08-19T08:59:15.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="DUQ-89ioXZ4446Rrukjl" version="21.6.8" type="github" pages="11">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1657,7 +1657,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2WrPdMdwuKZE-WYwoMgU" name="交互">
-    <mxGraphModel dx="4356" dy="2753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3568" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1812,11 +1812,23 @@
         <mxCell id="kHBIqyj211iira51kj9p-3" value="手柄交互" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-630" y="800" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="kHBIqyj211iira51kj9p-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kHBIqyj211iira51kj9p-5" target="kHBIqyj211iira51kj9p-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kHBIqyj211iira51kj9p-5" value="触摸" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-750" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kHBIqyj211iira51kj9p-7" value="trigger" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kHBIqyj211iira51kj9p-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kHBIqyj211iira51kj9p-7" target="kHBIqyj211iira51kj9p-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kHBIqyj211iira51kj9p-7" value="扳机" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-520" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHBIqyj211iira51kj9p-9" value="监听selectedEnter" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kHBIqyj211iira51kj9p-11" value="Trigger" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
