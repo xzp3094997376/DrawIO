@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T08:54:43.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="6dxP3ER5f9A40SZgCp-e" version="21.6.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-08-19T08:55:46.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="XPl7Nx0gZ-QHHK4JKftZ" version="21.6.8" type="github" pages="11">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1815,7 +1815,7 @@
         <mxCell id="kHBIqyj211iira51kj9p-5" value="触摸" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-750" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kHBIqyj211iira51kj9p-7" value="拿起" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="kHBIqyj211iira51kj9p-7" value="trigger" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-520" y="950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
