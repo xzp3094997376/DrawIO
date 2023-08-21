@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T03:48:10.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Xms73zIGcW9H3zH_XmOh" version="21.6.8" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-08-21T03:50:41.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="9wSs5-4Ix2zmD1PiLlb1" version="21.6.8" type="github" pages="11">
   <diagram name="使用教程" id="pcouzuBEbDaJKGAAC71_">
     <mxGraphModel dx="2297" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1906,8 +1906,14 @@
         <mxCell id="0a-xA97x3MdMc9Y4wTaA-6" value="打开UI 时，GameEntry.SpeakCom 会自动读语音" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1b0URYDwzk2kp3wK57_0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1b0URYDwzk2kp3wK57_0-1" target="1b0URYDwzk2kp3wK57_0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1b0URYDwzk2kp3wK57_0-1" value="UIName" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1b0URYDwzk2kp3wK57_0-2" value="预制体名字:UIName+Form" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
