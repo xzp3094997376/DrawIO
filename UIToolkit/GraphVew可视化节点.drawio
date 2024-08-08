@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="第 1 页" id="cEUEjpOXRdQMH25T6i1Y">
-    <mxGraphModel dx="4052" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1792" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
         <mxCell id="V2yEh5TrKZx0-5OOb6w3-5" value="Graph&lt;div&gt;View&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="330" y="460" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="V2yEh5TrKZx0-5OOb6w3-7" value="Node" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="V2yEh5TrKZx0-5OOb6w3-7" value="Node(n)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="750" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="V2yEh5TrKZx0-5OOb6w3-9" value="&lt;b&gt;&lt;font style=&quot;--darkreader-inline-color: #8cff7b;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#66ff66&quot;&gt;GraphElement&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -101,6 +101,30 @@
         </mxCell>
         <mxCell id="rrtTz6fm2YhwNLVOh3aT-12" value="Extension Container(额外容器)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rrtTz6fm2YhwNLVOh3aT-7">
           <mxGeometry x="130" y="370" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rrtTz6fm2YhwNLVOh3aT-13" value="node(1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="755" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="rrtTz6fm2YhwNLVOh3aT-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rrtTz6fm2YhwNLVOh3aT-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="540" as="sourcePoint" />
+            <mxPoint x="380" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrtTz6fm2YhwNLVOh3aT-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="760" as="sourcePoint" />
+            <mxPoint x="300" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rrtTz6fm2YhwNLVOh3aT-16" value="Edge（表示节点之间连线）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="770" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rrtTz6fm2YhwNLVOh3aT-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.957;exitY=0.895;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.031;entryY=0.936;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006600;" edge="1" parent="1" source="rrtTz6fm2YhwNLVOh3aT-13" target="V2yEh5TrKZx0-5OOb6w3-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="800" as="sourcePoint" />
+            <mxPoint x="340" y="810" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
