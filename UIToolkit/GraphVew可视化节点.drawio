@@ -99,7 +99,7 @@
         <mxCell id="rrtTz6fm2YhwNLVOh3aT-11" value="main Container(主容器)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rrtTz6fm2YhwNLVOh3aT-7">
           <mxGeometry x="126.5" y="120.25" width="376" height="236.5" as="geometry" />
         </mxCell>
-        <mxCell id="rrtTz6fm2YhwNLVOh3aT-12" value="Extension Container" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rrtTz6fm2YhwNLVOh3aT-7">
+        <mxCell id="rrtTz6fm2YhwNLVOh3aT-12" value="Extension Container(额外容器)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rrtTz6fm2YhwNLVOh3aT-7">
           <mxGeometry x="130" y="370" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
