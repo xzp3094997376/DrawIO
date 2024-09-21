@@ -1,26 +1,47 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="OO1TLde0dCsjLa8SdZiL">
-    <mxGraphModel dx="1397" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="513" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ei0sEv7M4mOG_GoOcvCt-2" target="Ei0sEv7M4mOG_GoOcvCt-4">
+        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Ei0sEv7M4mOG_GoOcvCt-2" target="Ei0sEv7M4mOG_GoOcvCt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-2" value="&lt;font style=&quot;--darkreader-inline-color: #6aff5b;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#00cc00&quot;&gt;双击BaseGraphAsset资源&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-2" value="&lt;font style=&quot;--darkreader-inline-color: #6aff5b;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#00cc00&quot;&gt;双击BaseGraphAsset资源&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-3" value="NodeGraph Odin启动流程。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-3" value="NodeGraph Odin启动流程。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="235" y="78" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-4" value="打开编辑器窗口（&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;GetWindow&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffbec;&quot;&gt;）&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-4" value="打开编辑器窗口（&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221; --darkreader-inline-color: #e2d8c8;&quot;&gt;GetWindow&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffbec;&quot;&gt;）&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="294" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-7" value="&lt;blockquote data-darkreader-inline-border-left=&quot;&quot; data-darkreader-inline-border-bottom=&quot;&quot; data-darkreader-inline-border-right=&quot;&quot; data-darkreader-inline-border-top=&quot;&quot; style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;&quot;&gt;&lt;pre data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221;&quot;&gt;&lt;font style=&quot;--darkreader-inline-color: #eaa273;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#e28c5a&quot;&gt;GraphAssetCallbacks.cs调用OnBaseGraphOpened&lt;/font&gt;&lt;/pre&gt;&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-7" value="&lt;blockquote data-darkreader-inline-border-left=&quot;&quot; data-darkreader-inline-border-bottom=&quot;&quot; data-darkreader-inline-border-right=&quot;&quot; data-darkreader-inline-border-top=&quot;&quot; style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;&quot;&gt;&lt;pre data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(38, 38, 38); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #212221;&quot;&gt;&lt;font style=&quot;--darkreader-inline-color: #eaa273;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#e28c5a&quot;&gt;GraphAssetCallbacks.cs调用OnBaseGraphOpened&lt;/font&gt;&lt;/pre&gt;&lt;/blockquote&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="200" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-8" value="&lt;font color=&quot;#00cc66&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;--darkreader-inline-color: #6effab; --darkreader-inline-bgcolor: transparent; background-color: transparent;&quot; data-darkreader-inline-color=&quot;&quot;&gt;Editor 获取baseGraph 实例化对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="Ei0sEv7M4mOG_GoOcvCt-8" value="&lt;font color=&quot;#00cc66&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;--darkreader-inline-color: #6effab; --darkreader-inline-bgcolor: transparent; background-color: transparent;&quot; data-darkreader-inline-color=&quot;&quot;&gt;Editor 获取baseGraph 实例化对象&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="500" y="355" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLpIXTkx87mUT47hCbSt-2" value="打开graph窗口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="355" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wLpIXTkx87mUT47hCbSt-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="375" as="sourcePoint" />
+            <mxPoint x="280" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLpIXTkx87mUT47hCbSt-4" value="Window 中初始化Grap&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: initial; color: rgb(0, 0, 0); --darkreader-inline-bgcolor: initial; --darkreader-inline-color: #fffbec;&quot;&gt;h&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wLpIXTkx87mUT47hCbSt-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ei0sEv7M4mOG_GoOcvCt-4" target="wLpIXTkx87mUT47hCbSt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="410" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wLpIXTkx87mUT47hCbSt-6" value="OnEnable中创建标题名（GuiContent）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
