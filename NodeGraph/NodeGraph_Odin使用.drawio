@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="OO1TLde0dCsjLa8SdZiL">
-    <mxGraphModel dx="2515" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1702" dy="1333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,6 +127,9 @@
         <mxCell id="yoeVAQgyyT35nLFTbCaf-27" value="新建新的元素" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-29" target="yoeVAQgyyT35nLFTbCaf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-29" value="添加NodeView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
@@ -135,6 +138,9 @@
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-33" value="添加NodeView缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-35" value="&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(35, 46, 70); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #222836; --darkreader-inline-color: #e2d8c8;&quot;&gt;InitializeView&lt;/span&gt;&lt;div&gt;&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(35, 46, 70); color: rgb(208, 208, 208); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; --darkreader-inline-bgcolor: #222836; --darkreader-inline-color: #e2d8c8;&quot;&gt;UI布局：添加VisualElement相关元素&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
