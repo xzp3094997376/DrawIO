@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="OO1TLde0dCsjLa8SdZiL">
-    <mxGraphModel dx="2853" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2515" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,13 +98,43 @@
           <mxGeometry x="294" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-15" value="注册复制粘贴事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="-60" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-17" target="yoeVAQgyyT35nLFTbCaf-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-17" target="yoeVAQgyyT35nLFTbCaf-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-17" value="BaseGraphView.Init函数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-19" value="注册操作事件&lt;div&gt;拖拽&lt;/div&gt;&lt;div&gt;按下等&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-25" value="清除旧的元素" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-27" target="yoeVAQgyyT35nLFTbCaf-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-27" target="yoeVAQgyyT35nLFTbCaf-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-27" target="yoeVAQgyyT35nLFTbCaf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-27" value="新建新的元素" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-29" value="添加NodeView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-31" value="添加edgeView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-33" value="添加NodeView缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
