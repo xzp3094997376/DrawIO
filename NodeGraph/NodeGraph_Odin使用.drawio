@@ -85,8 +85,14 @@
         <mxCell id="yoeVAQgyyT35nLFTbCaf-12" value="View 层:Window+BaseGraphVIew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yoeVAQgyyT35nLFTbCaf-13" value="NodeView初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="860" width="120" height="60" as="geometry" />
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-13" target="yoeVAQgyyT35nLFTbCaf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-13" value="构造函数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-15" value="注册复制粘贴事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
