@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-4" value="BaseGraphVIew初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="294" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-6" target="yoeVAQgyyT35nLFTbCaf-7">
           <mxGeometry relative="1" as="geometry" />
@@ -88,11 +88,23 @@
         <mxCell id="yoeVAQgyyT35nLFTbCaf-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-13" target="yoeVAQgyyT35nLFTbCaf-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-13" target="yoeVAQgyyT35nLFTbCaf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yoeVAQgyyT35nLFTbCaf-13" target="yoeVAQgyyT35nLFTbCaf-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-13" value="构造函数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yoeVAQgyyT35nLFTbCaf-15" value="注册复制粘贴事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="1109" width="120" height="60" as="geometry" />
+          <mxGeometry x="-70" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-17" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yoeVAQgyyT35nLFTbCaf-19" value="注册操作事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
