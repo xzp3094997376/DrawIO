@@ -10,6 +10,12 @@
         <mxCell id="q95ydTCRUaQBNXy0fSR5-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;客户端&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="220" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="q95ydTCRUaQBNXy0fSR5-6" value="铁塔组立" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q95ydTCRUaQBNXy0fSR5-7" value="装表接电" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
