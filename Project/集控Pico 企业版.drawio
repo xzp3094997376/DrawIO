@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q95ydTCRUaQBNXy0fSR5-10" value="工位1|在线|状态”" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="810" width="126" height="30" as="geometry" />
+          <mxGeometry x="351" y="810" width="126" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
