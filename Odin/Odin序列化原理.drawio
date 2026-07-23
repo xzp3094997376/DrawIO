@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="GyYOVt_SkZdBV_nEhSAR">
+    <mxGraphModel dx="1366" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-4" edge="1" parent="1" source="SWLyX1l_973hSfo5V_0E-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ziG2CVQ4gKJFOnd48apl-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SWLyX1l_973hSfo5V_0E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据&lt;div&gt;开始序列化&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-6" edge="1" parent="1" source="ziG2CVQ4gKJFOnd48apl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ziG2CVQ4gKJFOnd48apl-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-10" edge="1" parent="1" source="ziG2CVQ4gKJFOnd48apl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ziG2CVQ4gKJFOnd48apl-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="基本类型" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-5" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="unity 序列化" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-14" edge="1" parent="1" source="ziG2CVQ4gKJFOnd48apl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ziG2CVQ4gKJFOnd48apl-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Odin 序列化" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="否" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ziG2CVQ4gKJFOnd48apl-13" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Format 将复杂数据转换成基本数据序列化" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
